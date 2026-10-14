@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="UP 主头像占位图">
+  <title>UP 主头像占位图</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6EDE2" />
+      <stop offset="100%" stop-color="#EFE2D2" />
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="88" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="168" fill="none" stroke="#C05F3C" stroke-opacity="0.16" stroke-width="6" />
+  <circle cx="256" cy="256" r="128" fill="none" stroke="#C05F3C" stroke-opacity="0.10" stroke-width="4" />
+
+  <!-- 简易的角色剪影，保持二次元气质但足够中性 -->
+  <g fill="#B4553A" fill-opacity="0.55">
+    <circle cx="256" cy="214" r="54" />
+    <path d="M256 286c-62 0-112 40-112 90v24h224v-24c0-50-50-90-112-90z" />
+  </g>
+
+  <text
+    x="256"
+    y="452"
+    text-anchor="middle"
+    font-family="ui-sans-serif, system-ui, 'PingFang SC', 'Microsoft YaHei', sans-serif"
+    font-size="34"
+    font-weight="600"
+    fill="#8A7F72"
+  >
+    头像待补充
+  </text>
+</svg>

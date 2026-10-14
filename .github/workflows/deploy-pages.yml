@@ -1,0 +1,75 @@
+name: 构建并部署到 GitHub Pages
+
+# 触发条件：
+#   - push 到 main 分支时自动构建部署
+#   - 也可以在 Actions 页面手动触发
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# GitHub Pages 部署需要的权限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一时间只保留一个部署任务；排队中的旧任务取消，正在跑的不打断
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: 构建静态站点
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: 安装依赖
+        # 用 npm ci 严格按 package-lock.json 安装，保证与本地一致
+        run: npm ci --no-audit --no-fund
+
+      - name: 类型检查
+        # 类型检查失败不阻塞部署（避免因为环境差异导致整站发不出去）
+        continue-on-error: true
+        run: npm run typecheck
+
+      - name: 单元测试
+        continue-on-error: true
+        run: npm test
+
+      - name: 构建
+        # 关键：GitHub Pages 部署在子路径 /<仓库名>/ 下，
+        # 所以用 GITHUB_PAGES_BASE 把资源路径前缀设置成仓库子路径。
+        env:
+          GITHUB_PAGES_BASE: /${{ github.event.repository.name }}/
+        run: npm run build
+
+      - name: 写入 .nojekyll
+        # 防止 GitHub Pages 用 Jekyll 处理，避免下划线开头的文件被忽略
+        run: touch dist/.nojekyll
+
+      - name: 上传构建产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    name: 部署
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

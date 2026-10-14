@@ -1,0 +1,465 @@
+{
+  "batch": "A",
+  "generatedAt": "2026-10-13T16:01:53.780Z",
+  "note": "所有 mid/昵称/粉丝数/认证/签名/证据标题均来自 Bilibili 公开 Web API 的只读核实结果（scripts/out/<mid>.json）。未下载或转载任何图片与视频内容。",
+  "candidates": [
+    {
+      "mid": 63231,
+      "name": "泛式",
+      "fans": 6735635,
+      "official": "2025百大UP主、2025直播年度人气奖UP主、直播高能主播",
+      "sign": "谢谢你喜欢我的视频 |  微博@泛式",
+      "contentFocus": "日本新番导视与完结吐槽、二次元冷知识整活，围绕每季新番做追番推荐和玩梗盘点。",
+      "observedStyle": "节奏极快、梗密度高的标题党式幽默，爱用感叹句和口头禅式前缀，吐槽与整活并重。",
+      "evidenceTitles": [
+        "啊啊7月新番你到底给我下了什么药啊！！【泛式】",
+        "一觉醒来，突然多了三个妈妈......【泛式】",
+        "新番时光机！十年前的观众都在看什么？「2016年7月篇」泛式"
+      ],
+      "contentTypes": [
+        "杂谈",
+        "吐槽",
+        "整活",
+        "推荐"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/63231",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%B3%9B%E5%BC%8F",
+        "https://api.bilibili.com/x/space/wbi/acc/info?mid=63231",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=63231"
+      ],
+      "verifiedAt": "2026-10-13T15:43:02.779Z",
+      "confidence": "high"
+    },
+    {
+      "mid": 730732,
+      "name": "瓶子君152",
+      "fans": 4334034,
+      "official": "2025百大UP主、2023百大UP主、知名UP主",
+      "sign": "各位点个关注再走呗 ",
+      "contentFocus": "新番与特摄逐集评分吐槽、动漫知识竞赛式整活，兼做二次元文化杂谈。",
+      "observedStyle": "以“评分 X.X！”起手给出直白结论，夸张情绪化措辞，吐槽密集、带连续剧式的系列化运营。",
+      "evidenceTitles": [
+        "评分4.7！神人多！神人神！神人又多又神！MewType梦限大完结吐槽！",
+        "评分9.3！长大能有多苦涩？重温野比大雄的人生！咋和童年看着不一样？【瓶子君152】",
+        "评分7.1！当太阳升起就把昨天忘记！假面骑士ZZZ完结吐槽！"
+      ],
+      "contentTypes": [
+        "吐槽",
+        "杂谈",
+        "整活",
+        "推荐"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/730732",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%93%B6%E5%AD%90%E5%90%9B152",
+        "https://api.bilibili.com/x/web-interface/card?mid=730732",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=730732"
+      ],
+      "verifiedAt": "2026-10-13T15:43:44.760Z",
+      "confidence": "high"
+    },
+    {
+      "mid": 213741,
+      "name": "中二电波台",
+      "fans": 316415,
+      "official": "",
+      "sign": "勃：weibo.com/ganeid",
+      "contentFocus": "以“新番大爆炸/新番导视”为核心的动画评论与业界批评，另有年度动画评选。",
+      "observedStyle": "栏目化（[TV2] 前缀）、反讽与自嘲并存，观点鲜明爱下判断，边吐槽边做动画批评。",
+      "evidenceTitles": [
+        "[TV2] 羊来！！！2026年10月新番导视",
+        "[TV2] 少女乐队拯救了京阿尼吗？2026年8月新番大爆炸（Powered by 中二歌会）",
+        "[TV2] 做一个动漫批评家，就永远不会破防！【次元论战S3】"
+      ],
+      "contentTypes": [
+        "杂谈",
+        "吐槽",
+        "资讯",
+        "推荐"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/213741",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%B8%AD%E4%BA%8C%E7%94%B5%E6%B3%A2%E5%8F%B0",
+        "https://api.bilibili.com/x/web-interface/card?mid=213741",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=213741"
+      ],
+      "verifiedAt": "2026-10-13T15:47:47.809Z",
+      "confidence": "high"
+    },
+    {
+      "mid": 11357018,
+      "name": "动画魂-Anitama",
+      "fans": 600746,
+      "official": "专栏优质UP主",
+      "sign": "讲道理的动漫媒体，官方微博：@动画魂Anitama新闻资讯 商务合作请站内私信。",
+      "contentFocus": "动画业界资讯与深度报道：月度作画集锦、动画公司/导演动向、主创专访、新番制作解析。",
+      "observedStyle": "媒体化的客观叙述与专业术语，标题偏科普与新闻式提问，几乎不做情绪化吐槽。",
+      "evidenceTitles": [
+        "【Anitama】2026年8月精彩作画集锦",
+        "【Anitama】2026年7月精彩作画集锦",
+        "【Anitama】2026年4月+5月+6月 季度精彩作画集锦"
+      ],
+      "contentTypes": [
+        "资讯",
+        "科普",
+        "考据",
+        "杂谈"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/11357018",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E7%94%BB%E9%AD%82Anitama",
+        "https://api.bilibili.com/x/web-interface/card?mid=11357018",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=11357018"
+      ],
+      "verifiedAt": "2026-10-13T15:49:31.189Z",
+      "confidence": "high"
+    },
+    {
+      "mid": 2859372,
+      "name": "名作之壁吧",
+      "fans": 470349,
+      "official": "bilibili 知名UP主",
+      "sign": "科普动画知识、统计销量评分、分享观点资讯的动画爱好者组织；合作qq 2208458802。",
+      "contentFocus": "动画销量与评分数据统计、新番导视与前瞻、业界讲坛与日本动画人访谈。",
+      "observedStyle": "数据驱动的排行榜式表达（“全球评分完结排行”“销量预测”），偏科普与理性分析。",
+      "evidenceTitles": [
+        "【壁吧】七月新番全球评分完结排行（2026）",
+        "专访向井太一：最终拯救我的还是音乐【壁家访谈】",
+        "【壁吧】26年10月新番导视 & 27年1月新番前瞻"
+      ],
+      "contentTypes": [
+        "科普",
+        "考据",
+        "资讯",
+        "推荐"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/2859372",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%90%8D%E4%BD%9C%E4%B9%8B%E5%A3%81%E5%90%A7",
+        "https://api.bilibili.com/x/web-interface/card?mid=2859372",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=2859372"
+      ],
+      "verifiedAt": "2026-10-13T15:47:18.127Z",
+      "confidence": "high"
+    },
+    {
+      "mid": 277665295,
+      "name": "华白雨",
+      "fans": 223616,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "兼职UP，更新频率不固定，最近疯狂加班中（在此谢罪！）",
+      "contentFocus": "日本声优与漫画家的“简史”系列人物科普，兼做新番导视。",
+      "observedStyle": "系列化编号（【声之心-40】）+ 夸张标题（“史上最强/最骚/最变态”），科普里夹带玩梗。",
+      "evidenceTitles": [
+        "日本声优界顶美！童年伙伴的合法萝莉！小仓唯简史！【声之心-40】",
+        "声优界不老传奇如何养成！井口裕香简史！【声之心-39】",
+        "自闭美少女逆袭！璀璨声优人生！远野光简史！【声之心-38】【bilibili次元论战】"
+      ],
+      "contentTypes": [
+        "科普",
+        "考据",
+        "推荐"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/277665295",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8D%8E%E7%99%BD%E9%9B%A8",
+        "https://api.bilibili.com/x/web-interface/card?mid=277665295",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=277665295"
+      ],
+      "verifiedAt": "2026-10-13T15:51:34.955Z",
+      "confidence": "high"
+    },
+    {
+      "mid": 8497684,
+      "name": "苏克杯",
+      "fans": 315796,
+      "official": "bilibili 知名UP主",
+      "sign": "保佑少年的坚定永不褪色",
+      "contentFocus": "以《Re:Zero》为主的动画逐集伏笔解析与轻小说原作考据，兼做动画人专题。",
+      "observedStyle": "逐集系列化深挖、“到底回收了多少伏笔”式设问，考据性强、情绪投入度高。",
+      "evidenceTitles": [
+        "【虚之记忆】天才音乐人Eve的漫画有多么与众不同？",
+        "第四季官宣！平稳落地！16集到底回收了多少伏笔？带你从小说角度解读动画【Re0】",
+        "结局白热化！死归权能另有其人？15集到底回收了多少伏笔？带你从小说角度解读动画【Re0】"
+      ],
+      "contentTypes": [
+        "考据",
+        "科普",
+        "杂谈"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/8497684",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E8%8B%8F%E5%85%8B%E6%9D%AF",
+        "https://api.bilibili.com/x/web-interface/card?mid=8497684",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=8497684"
+      ],
+      "verifiedAt": "2026-10-13T15:49:32.485Z",
+      "confidence": "high"
+    },
+    {
+      "mid": 3360633,
+      "name": "洛天lee",
+      "fans": 447754,
+      "official": "bilibili 新星UP主",
+      "sign": "愿你的坚持都有回报～  商务qq:3135515164",
+      "contentFocus": "《关于我转生变成史莱姆这档事》等作品的漫画/轻小说剧情科普与人物志连载。",
+      "observedStyle": "按“第二百九十弹”长期连载的剧情复述体，标题信息量极大、专有名词密集，面向原作党。",
+      "evidenceTitles": [
+        "红丸成长史！濒死复活后获得匹敌龙种之力？两位妻子的人生赢家与最强的火焰之力！【史莱姆人物志】第五弹",
+        "【史莱姆科普】利姆露复活？黑化！克罗耶千年轮回时间线全解析！",
+        "【史莱姆漫画】暴风龙登场？反击的前奏，利姆露顺利推算出库洛艾的轮回？【史莱姆故事】第三百零六弹"
+      ],
+      "contentTypes": [
+        "科普",
+        "考据",
+        "推荐"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/3360633",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%B4%9B%E5%A4%A9lee",
+        "https://api.bilibili.com/x/web-interface/card?mid=3360633",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=3360633"
+      ],
+      "verifiedAt": "2026-10-13T15:54:05.910Z",
+      "confidence": "high"
+    },
+    {
+      "mid": 14068111,
+      "name": "黝黑蜗壳天眼老师",
+      "fans": 1372739,
+      "official": "bilibili 知名UP主",
+      "sign": "商务合作QQ3281806659 微信willwzw15 长篇讲逻辑，短篇讲故事，提问伏特加的本体是什么？",
+      "contentFocus": "《名侦探柯南》《火影忍者》等长篇动漫的漫画主线情报与剧情解说，兼做二次元圣地巡礼。",
+      "observedStyle": "情报速报式高密度解说、设问式标题（“有多烂？”“谁是黑警？”），信息量优先，吐槽为辅。",
+      "evidenceTitles": [
+        "柯南最新主线情报！小兰再次怀疑柯南身份！？漫画1167-1169话",
+        "柯南动画30周年特别篇有多烂？灰原称呼新一为小兰老公！“30号杀人事件”！",
+        "一口气看完复联4新增内容！毁灭博士现身！如何预告复联5剧情？重映多出来的4分钟！"
+      ],
+      "contentTypes": [
+        "资讯",
+        "科普",
+        "考据",
+        "吐槽"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/14068111",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E9%BB%9D%E9%BB%91%E8%9C%97%E5%A3%B3%E5%A4%A9%E7%9C%BC%E8%80%81%E5%B8%88",
+        "https://api.bilibili.com/x/web-interface/card?mid=14068111",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=14068111"
+      ],
+      "verifiedAt": "2026-10-13T15:50:19.789Z",
+      "confidence": "high"
+    },
+    {
+      "mid": 677139412,
+      "name": "咕噜一口小三胖",
+      "fans": 402958,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "商务合作：fwqfqxjy   入驻勿扰谢谢B站的阿信说动漫都是假的！别的平台基本是真的太难受了~~",
+      "contentFocus": "国产动画与童年动画（熊出没、数码宝贝、灵笼、凸变英雄X 等）的观后感与主题杂谈。",
+      "observedStyle": "用连续反问句做标题，偏感性与情怀向，夹带对国产动画行业的吐槽。",
+      "evidenceTitles": [
+        "童年动画到底是否过誉了？难道真的是情怀和滤镜我们才觉得好看？",
+        "新一代的主角已经崭露头角！老忍者的时代真的结束了吗？",
+        "数码宝贝为什么是童年白月光？堪称人生导师般的存在！"
+      ],
+      "contentTypes": [
+        "杂谈",
+        "吐槽",
+        "推荐"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/677139412",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%92%95%E5%99%9C%E4%B8%80%E5%8F%A3%E5%B0%8F%E4%B8%89%E8%83%96",
+        "https://api.bilibili.com/x/space/wbi/acc/info?mid=677139412",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=677139412"
+      ],
+      "verifiedAt": "2026-10-13T15:50:47.099Z",
+      "confidence": "high"
+    },
+    {
+      "mid": 7946432,
+      "name": "利维坦mY",
+      "fans": 1942243,
+      "official": "2025百大UP主、2024百大UP主、知名UP主",
+      "sign": "微博@利维坦mY 商务合作微信：levitan81（全小写）添加请备注项目.未加入任何MCN",
+      "contentFocus": "国产动画《凡人修仙传》逐帧解析为主，也解析国产游戏/动画 PV（黑神话钟馗、影之刃零等）。",
+      "observedStyle": "“逐帧解析”式硬核拆解、四字短语小标题，考据细节并推演剧情走向。",
+      "evidenceTitles": [
+        "绝境求生！韩立最爽的一集！《凡人修仙传》195逐帧解析",
+        "神迹之下,皆是人心！鸣潮如何诠释文明不屈？",
+        "元婴终极之战！藏了多少细节？《凡人修仙传》194逐帧解析"
+      ],
+      "contentTypes": [
+        "考据",
+        "科普",
+        "杂谈"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/7946432",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%88%A9%E7%BB%B4%E5%9D%A6mY",
+        "https://api.bilibili.com/x/web-interface/card?mid=7946432",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=7946432"
+      ],
+      "verifiedAt": "2026-10-13T15:45:59.089Z",
+      "confidence": "medium"
+    },
+    {
+      "mid": 5293668,
+      "name": "齐天大肾余潇洒",
+      "fans": 1083056,
+      "official": "bilibili 2020百大UP主、知名UP主",
+      "sign": "男人至死都是少年，女人也是。  ",
+      "contentFocus": "国产动画（灵笼、时光代理人、伍六七、罗小黑）的深度点评与国创行业观察栏目【国动万象】。",
+      "observedStyle": "系列栏目化论述、夹叙夹议，既有“暴力吐槽”也有世界观深度解析。",
+      "evidenceTitles": [
+        "千万医生的光荣与血泪，钱与命的终极拷问——新中国医疗发展史【潇洒一辣】",
+        "被嫌弃的国创UP主的一生【国动万象·完结篇】",
+        "我们为什么喜欢反派？简析《灵笼》最矛盾最复杂最具张力角色——查尔斯【国动万象】"
+      ],
+      "contentTypes": [
+        "杂谈",
+        "吐槽",
+        "考据"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/5293668",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%BD%99%E6%BD%87%E6%B4%92",
+        "https://api.bilibili.com/x/web-interface/card?mid=5293668",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=5293668"
+      ],
+      "verifiedAt": "2026-10-13T15:55:45.189Z",
+      "confidence": "medium"
+    },
+    {
+      "mid": 14110780,
+      "name": "凉风Kaze",
+      "fans": 6922736,
+      "official": "bilibili 2022百大UP主、2020年度弹幕人气奖UP主、直播高能主播",
+      "sign": "没有天赋那就重复",
+      "contentFocus": "早期以动漫吐槽/整活知名，当前投稿以 UP 主生存现状访谈类节目为主，动画内容占比明显下降。",
+      "observedStyle": "纪实访谈式叙述 + 轻松玩梗，标题偏人物故事与情绪。",
+      "evidenceTitles": [
+        "当年拿下B站直播总冠军的女主播，现在怎么样了？【UP主生存现状21】",
+        "我跟被封7个号的画师混了一天！【这也行？03】",
+        "UP主转型短剧演员，差点转失业！【UP主生存现状20】"
+      ],
+      "contentTypes": [
+        "杂谈",
+        "整活"
+      ],
+      "recommendInclude": true,
+      "excludeReason": "",
+      "sources": [
+        "https://space.bilibili.com/14110780",
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%87%89%E9%A3%8EKaze",
+        "https://api.bilibili.com/x/web-interface/card?mid=14110780",
+        "https://api.bilibili.com/x/space/wbi/arc/search?mid=14110780"
+      ],
+      "verifiedAt": "2026-10-13T15:46:09.835Z",
+      "confidence": "medium"
+    }
+  ],
+  "excluded": [
+    {
+      "keyword": "木鱼水心",
+      "mid": 927587,
+      "reason": "内容以影视剧/文学解说为主，不是动画区；且本次投稿列表接口被拦截（code=-1，返回 HTML 而非 JSON），无法核实近期投稿，不作为动画区候选。"
+    },
+    {
+      "keyword": "噩梦D",
+      "mid": 1816219,
+      "reason": "搜索第一名确为“bilibili 知名动漫UP主”噩梦D（101.7万粉），但投稿列表接口被拦截（code=-1，返回 HTML），本次未取到任何真实投稿标题，证据不足，放入排除项。"
+    },
+    {
+      "keyword": "LexBurner",
+      "mid": 777536,
+      "reason": "账号存在（607.8万粉、bilibili 知名UP主），但投稿列表接口被拦截（code=-1），无法核实其当前是否仍以动画区内容为主，证据不足，放入排除项。"
+    },
+    {
+      "keyword": "Rofix",
+      "mid": 883877,
+      "reason": "投稿列表接口被拦截（code=-1，返回 HTML），无法核实投稿标题，证据不足。"
+    },
+    {
+      "keyword": "时空蒸汽计划",
+      "mid": 3014435,
+      "reason": "投稿列表接口被拦截（code=-1，返回 HTML），无法核实投稿标题，证据不足。"
+    },
+    {
+      "keyword": "动漫低手",
+      "mid": 102627446,
+      "reason": "搜索第一名是同名小号（23 粉丝、0 投稿），不是目标 UP 主。"
+    },
+    {
+      "keyword": "动漫小新",
+      "mid": 16871527,
+      "reason": "搜索第一名是同名账号（0 粉丝、0 投稿），疑似空号/同名号，无有效内容可核实。"
+    },
+    {
+      "keyword": "动漫吐槽君",
+      "mid": 2839474,
+      "reason": "搜索第一名是同名账号（0 粉丝、0 投稿），无有效内容可核实。"
+    },
+    {
+      "keyword": "次元酱",
+      "mid": 520629020,
+      "reason": "搜索第一名是同名小号（0 粉丝、仅 2 条“二次元穿搭/心动女孩”类短视频），不是动画区内容创作者。"
+    },
+    {
+      "keyword": "西瓜说动漫",
+      "mid": 1276584873,
+      "reason": "搜索第一名是“大西瓜说动漫”（657 粉），投稿全部为影视剧/韩剧/家庭剧解说，属于影视区而非动画区，已排除。"
+    },
+    {
+      "keyword": "TOTOLO",
+      "mid": 358806313,
+      "reason": "搜索第一名是同名空号（0 粉丝、0 投稿），不是目标。"
+    },
+    {
+      "keyword": "番剧研究所",
+      "mid": 3706971366623257,
+      "reason": "搜索第一名是同名号（3 粉丝、1 投稿），签名自称“作品仅供分享交流”，疑似搬运号，且接口被拦截，不采用。"
+    },
+    {
+      "keyword": "老蕾",
+      "mid": 470536660,
+      "reason": "搜索第一名是同名号（1 粉丝、0 投稿），投稿接口风控失败（code=-352）；“老蕾”只是 LexBurner 的昵称，不应作为独立 UP 主。"
+    },
+    {
+      "keyword": "中二电视台",
+      "mid": 65220439,
+      "reason": "搜索第一名是“温州二十二中电视台”（校园电视台官方账号，2404 粉），与动画区 UP 主“中二电波台”（mid 213741）不是同一个账号，属于同名误匹配。"
+    },
+    {
+      "keyword": "疯奶说",
+      "reason": "用户搜索接口无任何结果，无法定位真实 UID。"
+    }
+  ]
+}

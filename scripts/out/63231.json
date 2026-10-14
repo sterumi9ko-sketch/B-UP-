@@ -1,0 +1,198 @@
+{
+  "keyword": "泛式",
+  "status": "verified",
+  "note": "",
+  "searchHits": [
+    {
+      "mid": 63231,
+      "name": "泛式",
+      "fans": 6735635,
+      "videoCount": 389,
+      "sign": "谢谢你喜欢我的视频 |  微博@泛式",
+      "official": "2025百大UP主、2025直播年度人气奖UP主、直播高能主播",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%B3%9B%E5%BC%8F"
+    },
+    {
+      "mid": 281341996,
+      "name": "下播型泛式录播组",
+      "fans": 294403,
+      "videoCount": 1443,
+      "sign": "泛式FunShiki录播组，尽量争取每一期都有录播；上舰后可携截图私信我们加入舰长交流群，常见问题见置顶动态",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%B3%9B%E5%BC%8F"
+    },
+    {
+      "mid": 382429165,
+      "name": "泛式之魂",
+      "fans": 2567,
+      "videoCount": 84,
+      "sign": "",
+      "official": "",
+      "level": 5,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%B3%9B%E5%BC%8F"
+    },
+    {
+      "mid": 1463485213,
+      "name": "泛式档案",
+      "fans": 1569,
+      "videoCount": 339,
+      "sign": "按作品整理最快最全最细（应该？）；部分作品为过审有遮挡内容，可通过视频页面提供的专栏链接「精确」跳转录播组原始录播（事实上可当作无遮挡）",
+      "official": "",
+      "level": 3,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%B3%9B%E5%BC%8F"
+    },
+    {
+      "mid": 2135450,
+      "name": "滑稽型泛式",
+      "fans": 541,
+      "videoCount": 24,
+      "sign": "醒来 然后踏出一步",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%B3%9B%E5%BC%8F"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": 63231,
+    "name": "泛式",
+    "sign": "谢谢你喜欢我的视频 |  微博@泛式",
+    "level": 6,
+    "official": "2025百大UP主、2025直播年度人气奖UP主、直播高能主播",
+    "source": "https://api.bilibili.com/x/space/wbi/acc/info?mid=63231"
+  },
+  "fanCountFromSearch": 6735635,
+  "videoTotal": 389,
+  "videos": [
+    {
+      "bvid": "BV1Uppw6yEMr",
+      "title": "啊啊7月新番你到底给我下了什么药啊！！【泛式】",
+      "description": "嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是想看你这嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是想看你这个表情啊2026年七月新番完结吐槽嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是想看你这个表情啊嘻嘻嘻嘻我就是2026年7月新番完结吐槽想看你这个表情啊嘻嘻嘻嘻我就是想看你这个表情啊",
+      "tag": "",
+      "tid": 253,
+      "length": "16:02",
+      "play": 2534669,
+      "comment": 9466,
+      "created": 1791286688,
+      "url": "https://www.bilibili.com/video/BV1Uppw6yEMr"
+    },
+    {
+      "bvid": "BV1sNh86gES3",
+      "title": "一觉醒来，突然多了三个妈妈......【泛式】",
+      "description": "美少女超级超级超级多超级超级超级可爱的《蓝色星原》三测试玩体验！",
+      "tag": "",
+      "tid": 172,
+      "length": "09:21",
+      "play": 1575510,
+      "comment": 1725,
+      "created": 1790244300,
+      "url": "https://www.bilibili.com/video/BV1sNh86gES3"
+    },
+    {
+      "bvid": "BV1FEet6eETy",
+      "title": "新番时光机！十年前的观众都在看什么？「2016年7月篇」泛式",
+      "description": "新番时光机，每季带你回顾十年前的动画，本期为2016年7月。\n求三连求转发求三连求转发求三连求转发求三连求转发求三连求转发求三连求转发求三连求转发求三连求转发求三连求转发求三连求转发求三连求转发求三连求转发！",
+      "tag": "",
+      "tid": 253,
+      "length": "17:02",
+      "play": 1575141,
+      "comment": 6891,
+      "created": 1789789124,
+      "url": "https://www.bilibili.com/video/BV1FEet6eETy"
+    },
+    {
+      "bvid": "BV1a5t264Em6",
+      "title": "笑出猪叫！AI重画动画名场景100次之后？猜得出的才是动漫高手！【动漫猜猜看09】",
+      "description": "动漫猜猜看第⑨期！你能猜出是哪部动画吗？\n喜欢视频的小伙伴别忘记点个关注加三连！",
+      "tag": "",
+      "tid": 253,
+      "length": "48:25",
+      "play": 1065812,
+      "comment": 1921,
+      "created": 1788606000,
+      "url": "https://www.bilibili.com/video/BV1a5t264Em6"
+    },
+    {
+      "bvid": "BV1so4C6MEoF",
+      "title": "现在买入....一定爆赚！2026年10月新番导视！【泛式】",
+      "description": "2026年10月新番全资讯导视\n\n求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连2026年七月新番求三连求三连",
+      "tag": "",
+      "tid": 253,
+      "length": "18:28",
+      "play": 2757942,
+      "comment": 8208,
+      "created": 1788001114,
+      "url": "https://www.bilibili.com/video/BV1so4C6MEoF"
+    },
+    {
+      "bvid": "BV1LP816AETT",
+      "title": "起猛了，在7月新番看到短剧了...... 【泛式】",
+      "description": "你知道最变态的是什么吗？最变态的是原片真就这样演的....完全一致！\n\n素材：7月新番《鬼之花嫁》",
+      "tag": "",
+      "tid": 253,
+      "length": "03:51",
+      "play": 2192896,
+      "comment": 10034,
+      "created": 1787389962,
+      "url": "https://www.bilibili.com/video/BV1LP816AETT"
+    },
+    {
+      "bvid": "BV1tcMy6fEEU",
+      "title": "看完7月新番，我走火入魔！浑身燥热！【泛式】",
+      "description": "这就是7月新番的大火猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！2026年七月新番的猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！猛炒！爆炒！狂炒！\n\n素材引用\n宿敌美声 BV1Nm421K7px\n游戏玩家 BV1E1KH6CEhk\n巧虎唱歌 BV1USQUYsEMD",
+      "tag": "",
+      "tid": 253,
+      "length": "13:50",
+      "play": 3360976,
+      "comment": 9780,
+      "created": 1785934692,
+      "url": "https://www.bilibili.com/video/BV1tcMy6fEEU"
+    },
+    {
+      "bvid": "BV1JT3i6eE95",
+      "title": "侦探大人，不是说好正经查案吗.....【泛式】",
+      "description": "玩了白银之城二测，很兴奋！",
+      "tag": "",
+      "tid": 172,
+      "length": "11:42",
+      "play": 4415604,
+      "comment": 4597,
+      "created": 1785233100,
+      "url": "https://www.bilibili.com/video/BV1JT3i6eE95"
+    },
+    {
+      "bvid": "BV1Tdgh6aESA",
+      "title": "袜学导论：从脚踝到大腿，袜子如何成就二次元的顶级暗示！【泛式/次元论战】",
+      "description": "《二次元袜学导论》小腿袜、过膝袜、连裤袜…..一块布料竟浩如烟海，今天一起来严肃学习「袜子」何以成为二次元的终极幻想！\n\n本视频为【bilibili次元论战S3】活动稿件，这次和@瓶子君152 （BV1KYgt6DEcf）一起带来“二次元的头发/袜子”话题的表演杂谈。\n你更在意角色的头发还是袜子？即刻前往活动官网投票>>> https://www.bilibili.com/blackboard/era/ACGRoundtableS3.html",
+      "tag": "",
+      "tid": 253,
+      "length": "17:06",
+      "play": 2906974,
+      "comment": 14287,
+      "created": 1784864295,
+      "url": "https://www.bilibili.com/video/BV1Tdgh6aESA"
+    },
+    {
+      "bvid": "BV1xuMG6PEwj",
+      "title": "终于....成为了海贼王的男人！【泛式】",
+      "description": "今天开始开船踏遍七大洋！！\n遗忘之海PC端7月9日已上线，移动端7月23日公测！",
+      "tag": "",
+      "tid": 17,
+      "length": "12:15",
+      "play": 2854852,
+      "comment": 1634,
+      "created": 1783569300,
+      "url": "https://www.bilibili.com/video/BV1xuMG6PEwj"
+    }
+  ],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T15:43:02.779Z",
+  "sources": [
+    "https://space.bilibili.com/63231",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%B3%9B%E5%BC%8F",
+    "https://api.bilibili.com/x/space/wbi/acc/info?mid=63231",
+    "https://api.bilibili.com/x/space/wbi/arc/search?mid=63231"
+  ]
+}

@@ -1,0 +1,32 @@
+# 统一换行符：仓库里一律存 LF，避免 Windows/macOS/Linux 混用造成
+# 每次提交都刷一大堆 "LF will be replaced by CRLF" 警告，也避免 diff 全是换行差异。
+* text=auto eol=lf
+
+# 明确按文本处理
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.js   text eol=lf
+*.mjs  text eol=lf
+*.cjs  text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.svg  text eol=lf
+*.txt  text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+# 二进制文件不要动
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.avif binary
+*.ico  binary
+*.woff binary
+*.woff2 binary
+
+# 在 GitHub 上把以下文件视为生成物，默认收起 diff
+package-lock.json  linguist-generated=true
+dist/**            linguist-generated=true

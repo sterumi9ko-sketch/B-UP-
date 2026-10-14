@@ -1,0 +1,77 @@
+{
+  "keyword": "TOTOLO",
+  "status": "verified",
+  "note": "",
+  "searchHits": [
+    {
+      "mid": 358806313,
+      "name": "totolo",
+      "fans": 0,
+      "videoCount": 0,
+      "sign": "",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=TOTOLO"
+    },
+    {
+      "mid": 5036209,
+      "name": "TOTOLO_",
+      "fans": 902,
+      "videoCount": 16,
+      "sign": "萌新腕友，主要交流腕力",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=TOTOLO"
+    },
+    {
+      "mid": 648631196,
+      "name": "totolo2380",
+      "fans": 0,
+      "videoCount": 1,
+      "sign": "",
+      "official": "",
+      "level": 2,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=TOTOLO"
+    },
+    {
+      "mid": 388122915,
+      "name": "Totolo_kun",
+      "fans": 10,
+      "videoCount": 0,
+      "sign": "",
+      "official": "",
+      "level": 5,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=TOTOLO"
+    },
+    {
+      "mid": 316952745,
+      "name": "Totolo12345",
+      "fans": 10,
+      "videoCount": 0,
+      "sign": "",
+      "official": "",
+      "level": 3,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=TOTOLO"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": 358806313,
+    "name": "totolo",
+    "sign": "",
+    "level": 6,
+    "official": "",
+    "source": "https://api.bilibili.com/x/space/wbi/acc/info?mid=358806313"
+  },
+  "fanCountFromSearch": 0,
+  "videoTotal": 0,
+  "videos": [],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T15:48:43.395Z",
+  "sources": [
+    "https://space.bilibili.com/358806313",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=TOTOLO",
+    "https://api.bilibili.com/x/space/wbi/acc/info?mid=358806313",
+    "https://api.bilibili.com/x/space/wbi/arc/search?mid=358806313"
+  ]
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>端到端检查 · 动画区UP主匹配</title>
+  </head>
+  <body>
+    <!--
+      开发期端到端检查页：自动答完全部题目并跳转到结果页，用于验证完整流程。
+      访问方式：/#/result 之前的这个页面，例如 /debug.html?level=0
+      该文件不参与正式导航，也不会被分享。
+    -->
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/debug-e2e.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "keyword": "一猫人",
+  "status": "verified",
+  "note": "",
+  "searchHits": [
+    {
+      "mid": 1445996044,
+      "name": "大熊猫本猫的一猫人",
+      "fans": 9034,
+      "videoCount": 0,
+      "sign": "此账号已停用",
+      "official": "贴纸设计师",
+      "level": 3,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%B8%80%E7%8C%AB%E4%BA%BA"
+    },
+    {
+      "mid": 8320999,
+      "name": "吴越一猫人",
+      "fans": 6088,
+      "videoCount": 326,
+      "sign": "我看我自己",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%B8%80%E7%8C%AB%E4%BA%BA"
+    },
+    {
+      "mid": 1294323086,
+      "name": "一猫人小黄",
+      "fans": 2415,
+      "videoCount": 57,
+      "sign": "人民万岁感谢大家的三联和关注",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%B8%80%E7%8C%AB%E4%BA%BA"
+    },
+    {
+      "mid": 348921661,
+      "name": "犯困D一猫人i",
+      "fans": 144,
+      "videoCount": 1,
+      "sign": "",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%B8%80%E7%8C%AB%E4%BA%BA"
+    },
+    {
+      "mid": 87416793,
+      "name": "努力毕业的一猫人",
+      "fans": 147,
+      "videoCount": 13,
+      "sign": "清华深研院计算机在读，秋招ing",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%B8%80%E7%8C%AB%E4%BA%BA"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": 1445996044,
+    "name": "大熊猫本猫的一猫人",
+    "sign": "此账号已停用",
+    "level": 3,
+    "official": "贴纸设计师",
+    "source": "https://api.bilibili.com/x/space/wbi/acc/info?mid=1445996044"
+  },
+  "fanCountFromSearch": 9034,
+  "videoTotal": 0,
+  "videos": [],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T16:04:39.648Z",
+  "sources": [
+    "https://space.bilibili.com/1445996044",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%B8%80%E7%8C%AB%E4%BA%BA",
+    "https://api.bilibili.com/x/space/wbi/acc/info?mid=1445996044",
+    "https://api.bilibili.com/x/space/wbi/arc/search?mid=1445996044"
+  ]
+}

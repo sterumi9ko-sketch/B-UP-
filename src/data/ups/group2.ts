@@ -1,0 +1,260 @@
+import type { UpProfile } from '@core/types';
+
+/**
+ * UP 主风格档案（第 2 组：数据统计、业界资讯与考据类）
+ * ---------------------------------------------------------------------------
+ * 核实方式与评分标准同 group1.ts，详见 docs/SCORING.md。
+ */
+export const UPS_GROUP_2: UpProfile[] = [
+  {
+    id: 'up_007',
+    uid: 213741,
+    name: '中二电波台',
+    category: '动画杂谈与评论',
+    tags: ['新番导视', '动画批评', '业界观察', '栏目化'],
+    summary: '带着批评眼光看新番的人，一边给你导视一边指出问题，观点从不含糊。',
+    intro:
+      '中二电波台 以新番导视与动画批评类内容为主，栏目形态稳定（如新番导视系列），擅长从作品结构、演出与业界环境的角度提出批评意见。内容偏理性分析，很少依赖搞笑桥段，观点表达非常明确。',
+    contentFocus: '新番导视栏目 / 动画批评与业界观察',
+    observedStyle: [
+      '导视类栏目按季稳定更新，逐部给出评价',
+      '批评视角明确，常讨论作品的结构与制作问题',
+      '表达偏理性，笑点不是内容核心',
+    ],
+    scores: {
+      humor: 62,
+      research: 86,
+      empathy: 48,
+      opinion: 92,
+      narrative: 72,
+      community: 58,
+      experiment: 74,
+      aesthetic: 70,
+    },
+    scoreRationale:
+      '观点表达：内容核心是批评与判断（S）。深度考据：常结合业界信息与制作背景分析（A）。实验创新：倾向讨论非主流与有争议的作品（A）。情绪共鸣：分析口吻为主，情绪表达少（C）。幽默整活：有调侃但整体偏严肃（B）。',
+    sources: [
+      { label: 'B站空间主页', url: 'https://space.bilibili.com/213741' },
+      { label: 'B站公开用户搜索接口', url: 'https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=中二电波台' },
+    ],
+    verification: 'verified',
+    fansSnapshot: 316413,
+    verifiedAt: '2025-01',
+    matchable: true,
+  },
+  {
+    id: 'up_008',
+    uid: 11357018,
+    name: '动画魂-Anitama',
+    category: '动漫文化科普',
+    tags: ['业界资讯', '作画集锦', '主创专访', '机构号'],
+    summary: '把动画业界的月度动态整理成资料库的机构号，作画与访谈是它的招牌内容。',
+    intro:
+      '动画魂-Anitama 是动画行业的资讯与科普类机构账号，内容以业界动态、月度作画集锦、主创专访与作品制作解析为主。表达方式偏专业与克制，重视信息来源，是动画区偏"资料库"型的内容生产者。',
+    contentFocus: '动画业界资讯 / 作画集锦 / 主创专访与制作解析',
+    observedStyle: [
+      '定期发布月度作画集锦，按作品与镜头整理',
+      '主创专访与制作解析内容占比高',
+      '笔调专业克制，几乎不使用段子式表达',
+    ],
+    scores: {
+      humor: 26,
+      research: 94,
+      empathy: 34,
+      opinion: 58,
+      narrative: 60,
+      community: 54,
+      experiment: 72,
+      aesthetic: 95,
+    },
+    scoreRationale:
+      '审美表达：作画集锦与演出解析是其标志内容（S）。深度考据：以行业资料与访谈为核心（S）。幽默整活：表达严肃，基本不靠笑点（D）。情绪共鸣：以客观信息为主（D）。社群互动：机构号的互动相对克制（C）。',
+    sources: [
+      { label: 'B站空间主页', url: 'https://space.bilibili.com/11357018' },
+      { label: 'B站公开用户搜索接口', url: 'https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=动画魂Anitama' },
+    ],
+    verification: 'verified',
+    fansSnapshot: 600741,
+    verifiedAt: '2025-01',
+    matchable: true,
+  },
+  {
+    id: 'up_009',
+    uid: 2859372,
+    name: '名作之壁吧',
+    category: '动漫文化科普',
+    tags: ['销量统计', '评分榜单', '业界讲坛', '数据向'],
+    summary: '用销量和评分说话的人，把动画行业的数据整理成榜单，讨论时先看数字。',
+    intro:
+      '名作之壁吧 以动画销量、评分与市场数据的统计整理为主要内容，定期发布各类排行榜与数据观察，并做业界话题的讲坛式讨论。内容形态是"数据 + 分析"，判断建立在统计结果之上。',
+    contentFocus: '动画销量与评分统计 / 业界话题讨论',
+    observedStyle: [
+      '定期发布销量/评分榜单，用数字支撑结论',
+      '讨论业界现象时先给数据再给判断',
+      '带有社区讨论性质，话题性强',
+    ],
+    scores: {
+      humor: 46,
+      research: 88,
+      empathy: 36,
+      opinion: 82,
+      narrative: 58,
+      community: 76,
+      experiment: 62,
+      aesthetic: 52,
+    },
+    scoreRationale:
+      '深度考据：以数据统计与资料整理为核心（S）。观点表达：基于数据的判断明确（A）。社群互动：内容带有社区讨论属性，互动活跃（A）。情绪共鸣：数据导向，情绪表达很少（D）。幽默整活：偶有调侃（C）。',
+    sources: [
+      { label: 'B站空间主页', url: 'https://space.bilibili.com/2859372' },
+      { label: 'B站公开用户搜索接口', url: 'https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=名作之壁吧' },
+    ],
+    verification: 'verified',
+    fansSnapshot: 470357,
+    verifiedAt: '2025-01',
+    matchable: true,
+  },
+  {
+    id: 'up_010',
+    uid: 277665295,
+    name: '华白雨',
+    category: '动漫文化科普',
+    tags: ['声优科普', '创作者简史', '人物档案', '考据'],
+    summary: '把声优和漫画家的经历整理成人物档案的人，做的是动画行业的人物志。',
+    intro:
+      '华白雨 的内容以声优、漫画家等动画相关创作者的简史与人物档案为主，配合新番导视类内容。整体偏科普与资料整理，重视人物经历与作品脉络的梳理，表达方式偏沉静。',
+    contentFocus: '声优/漫画家人物简史与科普 / 新番导视',
+    observedStyle: [
+      '人物志类内容系统性梳理从业经历与代表作',
+      '标题偏资料化，如"简史""档案"',
+      '表达平实，很少使用夸张修辞',
+    ],
+    scores: {
+      humor: 34,
+      research: 92,
+      empathy: 62,
+      opinion: 54,
+      narrative: 74,
+      community: 56,
+      experiment: 60,
+      aesthetic: 66,
+    },
+    scoreRationale:
+      '深度考据：人物档案建立在资料梳理之上（S）。叙事创作：人物经历按时间线结构化呈现（A）。幽默整活：表达平实（D）。观点表达：以介绍为主，少下判断（C）。审美表达：会涉及作品演出与创作风格（B）。',
+    sources: [
+      { label: 'B站空间主页', url: 'https://space.bilibili.com/277665295' },
+      { label: 'B站公开用户搜索接口', url: 'https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=华白雨' },
+    ],
+    verification: 'verified',
+    fansSnapshot: 223614,
+    verifiedAt: '2025-01',
+    matchable: true,
+  },
+  {
+    id: 'up_011',
+    uid: 8497684,
+    name: '苏克杯',
+    category: '剧情与世界观考据',
+    tags: ['伏笔考据', '逐集解析', '原作对照', '长连载'],
+    summary: '把一部作品的伏笔当作长期工程来做的人，从小说角度逐集对照动画。',
+    intro:
+      '苏克杯 以单部作品的逐集伏笔考据与原作对照为主要内容，从小说/原作视角解读动画每一集回收与埋下的线索，形成长期连载式的解析体系。内容信息密度高，情绪表达相对克制。',
+    contentFocus: '单部作品的逐集伏笔考据 / 原作与动画对照',
+    observedStyle: [
+      '按集数连载解析，标题统一为伏笔盘点体例',
+      '大量对照原作小说与动画改编差异',
+      '以线索梳理为主，判断基于文本证据',
+    ],
+    scores: {
+      humor: 40,
+      research: 95,
+      empathy: 54,
+      opinion: 62,
+      narrative: 72,
+      community: 64,
+      experiment: 48,
+      aesthetic: 60,
+    },
+    scoreRationale:
+      '深度考据：逐集伏笔对照是其全部内容形式（S）。叙事创作：解析按剧情推进顺序组织（A）。实验创新：长期聚焦单一作品（C）。情绪共鸣：以文本证据为主，情绪表达有限（C）。',
+    sources: [
+      { label: 'B站空间主页', url: 'https://space.bilibili.com/8497684' },
+      { label: 'B站公开用户搜索接口', url: 'https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=苏克杯' },
+    ],
+    verification: 'verified',
+    fansSnapshot: 315792,
+    verifiedAt: '2025-01',
+    matchable: true,
+  },
+  {
+    id: 'up_012',
+    uid: 3360633,
+    name: '洛天lee',
+    category: '剧情与世界观考据',
+    tags: ['剧情科普', '人物志', '连载梳理', '漫画向'],
+    summary: '把长篇漫画的剧情和人物关系整理成连续剧集的人，适合跟不上的观众补课。',
+    intro:
+      '洛天lee 以长篇漫画作品的剧情科普与人物志连载为主要内容，按篇章系统梳理剧情走向与人物关系，帮助观众跟上一部长篇作品的进展。内容偏资料整理与叙述。',
+    contentFocus: '长篇漫画剧情科普 / 人物志系列',
+    observedStyle: [
+      '按篇章连载剧情梳理，形成连续系列',
+      '人物志内容按角色逐个整理经历',
+      '以叙述与整理为主，评价较少',
+    ],
+    scores: {
+      humor: 44,
+      research: 84,
+      empathy: 58,
+      opinion: 48,
+      narrative: 78,
+      community: 60,
+      experiment: 46,
+      aesthetic: 50,
+    },
+    scoreRationale:
+      '深度考据：剧情与人物关系整理需要系统梳理资料（A）。叙事创作：按篇章顺序组织内容，结构清晰（A）。观点表达：以介绍为主（C）。实验创新：聚焦既有长篇作品的既有内容（C）。',
+    sources: [
+      { label: 'B站空间主页', url: 'https://space.bilibili.com/3360633' },
+      { label: 'B站公开用户搜索接口', url: 'https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=洛天lee' },
+    ],
+    verification: 'verified',
+    fansSnapshot: 447753,
+    verifiedAt: '2025-01',
+    matchable: true,
+  },
+  {
+    id: 'up_018',
+    uid: 1351379,
+    name: '赫萝老师',
+    category: '动画杂谈与评论',
+    tags: ['动画杂谈', '作品细读', '系列化栏目', '轻吐槽'],
+    summary: '自称"只是个观众"的人，喜欢把动画背后的故事讲给你听，栏目一个接一个地做。',
+    intro:
+      '赫萝老师 以动画杂谈与作品细读类内容为主，做「新番日推」等系列化栏目，讨论作品背景、创作掌故与具体作品的看点，也会聊动画与其他领域的联动话题。表达方式介于科普与闲聊之间，克制但不乏调侃。',
+    contentFocus: '动画杂谈栏目 / 作品背景与看点细读 / 新番推荐',
+    observedStyle: [
+      '以固定的系列栏目持续推进（如新番日推）',
+      '选题围绕动画作品背景、创作掌故与看点',
+      '语气偏闲聊，会带入个人观感与调侃',
+    ],
+    scores: {
+      humor: 70,
+      research: 84,
+      empathy: 62,
+      opinion: 74,
+      narrative: 66,
+      community: 68,
+      experiment: 58,
+      aesthetic: 70,
+    },
+    scoreRationale:
+      '深度考据：经常讲作品背后的创作故事与背景资料（A）。观点表达：栏目中会明确给出推荐与判断（A）。幽默整活：语气轻松，常有调侃（B）。审美表达：会涉及作品表现与创作手法（B）。实验创新：选题以当期新番与常见话题为主（C）。',    sources: [
+      { label: 'B站空间主页', url: 'https://space.bilibili.com/1351379' },
+      { label: 'B站公开投稿列表接口（最近 20 条标题）', url: 'https://api.bilibili.com/x/space/wbi/arc/search?mid=1351379' },
+    ],
+    verification: 'verified',
+    fansSnapshot: 992432,
+    verifiedAt: '2025-01',
+    matchable: true,
+  },
+];

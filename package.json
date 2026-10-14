@@ -1,0 +1,36 @@
+{
+  "name": "bili-anime-up-match",
+  "private": true,
+  "version": "1.0.0",
+  "description": "《测测你是B站动画区的哪位UP主？》—— 动画区 UP 主创作风格匹配测试（纯静态站点）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:site": "node scripts/build-site.mjs",
+    "build:standalone": "node scripts/build-standalone.mjs",
+    "build:all": "npm run build && npm run build:site && npm run build:standalone",
+    "build:strict": "npm run typecheck && vite build",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check:layout": "node scripts/check-layout.mjs",
+    "check:interactions": "node scripts/check-interactions.mjs",
+    "screenshot": "node scripts/screenshot.mjs",
+    "research": "node scripts/verify-ups.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  },
+  "pnpm": {
+    "allowBuilds": {
+      "esbuild": true,
+      "rollup": true,
+      "fsevents": true
+    }
+  }
+}

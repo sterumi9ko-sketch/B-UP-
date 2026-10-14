@@ -1,0 +1,55 @@
+{
+  "keyword": "番剧研究所",
+  "status": "partial",
+  "note": "投稿列表接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+  "searchHits": [
+    {
+      "mid": 3706971366623257,
+      "name": "番剧研究所",
+      "fans": 3,
+      "videoCount": 1,
+      "sign": "【版权声明】作品仅供分享交流，若涉及侵权请联系删除，我们将第一时间处理",
+      "official": "",
+      "level": 2,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%95%AA%E5%89%A7%E7%A0%94%E7%A9%B6%E6%89%80"
+    },
+    {
+      "mid": 3546762520299614,
+      "name": "东云番剧研究所",
+      "fans": 16,
+      "videoCount": 0,
+      "sign": "我们所经历的日常，或许就是连续不断的奇迹。\n欢迎加入东云番剧研究所707088690",
+      "official": "",
+      "level": 2,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%95%AA%E5%89%A7%E7%A0%94%E7%A9%B6%E6%89%80"
+    },
+    {
+      "mid": 404301680,
+      "name": "伪番剧研究所",
+      "fans": 2,
+      "videoCount": 0,
+      "sign": "会转发 @哔哩哔哩番剧 除了连载动画以外的所以动态和视频",
+      "official": "",
+      "level": 4,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%95%AA%E5%89%A7%E7%A0%94%E7%A9%B6%E6%89%80"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": "3706971366623257",
+    "name": "番剧研究所",
+    "sign": "【版权声明】作品仅供分享交流，若涉及侵权请联系删除，我们将第一时间处理",
+    "official": "",
+    "source": "https://api.bilibili.com/x/web-interface/card?mid=3706971366623257"
+  },
+  "fanCountFromSearch": 3,
+  "videoTotal": null,
+  "videos": [],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T15:52:25.834Z",
+  "sources": [
+    "https://space.bilibili.com/3706971366623257",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%95%AA%E5%89%A7%E7%A0%94%E7%A9%B6%E6%89%80",
+    "https://api.bilibili.com/x/web-interface/card?mid=3706971366623257"
+  ]
+}

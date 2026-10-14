@@ -1,0 +1,1321 @@
+{
+  "generatedAt": "2026-10-14T02:14:30.891Z",
+  "results": [
+    {
+      "keyword": "H萌团队",
+      "queryMatchedName": "H萌团队",
+      "exactNameMatch": true,
+      "mid": 18030567,
+      "name": "H萌团队",
+      "fans": 564754,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "致力做优质又好玩的ACG节目 商务合作联系QQ：690614413",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/18030567",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=H%E8%90%8C%E5%9B%A2%E9%98%9F",
+        "https://space.bilibili.com/18030567"
+      ],
+      "fetchedAt": "2026-10-14T02:05:18.056Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 3493084312636038,
+          "name": "H萌团队wq",
+          "fans": 0
+        },
+        {
+          "mid": 1115934315,
+          "name": "H萌团队2",
+          "fans": 0
+        },
+        {
+          "mid": 220572661,
+          "name": "H-萌团队",
+          "fans": 0
+        }
+      ]
+    },
+    {
+      "keyword": "尕丶天堂",
+      "queryMatchedName": "尕丶天堂",
+      "exactNameMatch": true,
+      "mid": 216025,
+      "name": "尕丶天堂",
+      "fans": 1646994,
+      "official": "bilibili 2019百大UP主、知名UP主、直播高能主播",
+      "sign": "跳票是大自然的规律啦~ 商业合作联系QQ：498843467 或微信号：tiantangSW",
+      "videoTotal": 1049,
+      "sampled": 10,
+      "titles": [
+        "2026 逆转裁判生日会——万般皆始终【bilibilionly同人扶持计划】",
+        "【漫画屋】彻底疯魔！见证赌狗少女的末路？新的危机正悄然降临！FX战士久留美#4",
+        "笑出猪叫的二次元你拼我猜！用垃圾还原动画？名场面满天飞！人均抽象艺术大师！【饭堂时刻218】",
+        "一人之力带火IP，无数老二次元心目中的女神！时崎狂三身上到底有什么魅力？【天堂】",
+        "【漫画屋】少女被迫下海？坏女人狠狠发力吃干抹净！我宣布这就是最强戒赌漫画！FX战士久留美#3",
+        "海龟汤惊悚名场面！听见她说的谢谢你之后，我崩溃了…【饭堂时刻217】",
+        "【漫画屋】颜艺癫狂！少女被彻底榨干！观众拍手称快！这就是赌狗的下场！FX战士久留美#2",
+        "11次暴雨时间线全梳理！一个视频带你看懂重返未来主线到4.0为止的全部剧情！【天堂】",
+        "史上最强加密通话！猜出是什么动画算你狠！抽象癫狂的动漫解码战！晋级赛下半场【动漫全能王8】",
+        "【天堂】霸权对决！阵容炸裂！10月新番必看的大作导视全推荐！"
+      ],
+      "animeHitRate": 0.7,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/216025",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%B0%95%E4%B8%B6%E5%A4%A9%E5%A0%82",
+        "https://space.bilibili.com/216025"
+      ],
+      "fetchedAt": "2026-10-14T02:05:54.565Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 381715558,
+          "name": "尕丶天堂-",
+          "fans": 153
+        },
+        {
+          "mid": 178659097,
+          "name": "励志上了尕天堂的秋蓂",
+          "fans": 2
+        },
+        {
+          "mid": 90156499,
+          "name": "尕-天堂",
+          "fans": 1
+        }
+      ]
+    },
+    {
+      "keyword": "依然小智",
+      "queryMatchedName": "依然小智",
+      "exactNameMatch": true,
+      "mid": 137952,
+      "name": "依然小智",
+      "fans": 806924,
+      "official": "bilibili 知名UP主、直播高能主播",
+      "sign": "商务联系wx:satosi2023",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/137952",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%BE%9D%E7%84%B6%E5%B0%8F%E6%99%BA",
+        "https://space.bilibili.com/137952"
+      ],
+      "fetchedAt": "2026-10-14T02:06:41.523Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": [
+        {
+          "mid": 2970476,
+          "name": "依然小智障",
+          "fans": 199274
+        },
+        {
+          "mid": 8738273,
+          "name": "依然小智蟑",
+          "fans": 80
+        },
+        {
+          "mid": 8644909,
+          "name": "依然小智Alter",
+          "fans": 50
+        }
+      ]
+    },
+    {
+      "keyword": "Hazx",
+      "queryMatchedName": "Hazx",
+      "exactNameMatch": true,
+      "mid": 594864,
+      "name": "Hazx",
+      "fans": 4286,
+      "official": "",
+      "sign": "ACG界某不知名的大绅士(LSP).. 微博@Hazx君丶",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/594864",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=Hazx",
+        "https://space.bilibili.com/594864"
+      ],
+      "fetchedAt": "2026-10-14T02:07:29.581Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 258519816,
+          "name": "hazx-",
+          "fans": 2
+        },
+        {
+          "mid": 3707006938515632,
+          "name": "妙hazx",
+          "fans": 5
+        },
+        {
+          "mid": 500384627,
+          "name": "hazx希",
+          "fans": 1
+        }
+      ]
+    },
+    {
+      "keyword": "赫萝老师",
+      "queryMatchedName": "赫萝老师",
+      "exactNameMatch": true,
+      "mid": 1351379,
+      "name": "赫萝老师",
+      "fans": 992431,
+      "official": "bilibili 知名UP主、直播高能主播",
+      "sign": "纯外行，只是个观众，讲述动画背后的故事。商务合作请私信",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/1351379",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E8%B5%AB%E8%90%9D%E8%80%81%E5%B8%88",
+        "https://space.bilibili.com/1351379"
+      ],
+      "fetchedAt": "2026-10-14T02:08:20.134Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 4351250,
+          "name": "赫萝老师录播组",
+          "fans": 5761
+        },
+        {
+          "mid": 1587433903,
+          "name": "赫萝老师录播组v2",
+          "fans": 1878
+        },
+        {
+          "mid": 1967979877,
+          "name": "婚介所赫萝老师",
+          "fans": 2
+        }
+      ]
+    },
+    {
+      "keyword": "噩梦D",
+      "queryMatchedName": "噩梦D",
+      "exactNameMatch": true,
+      "mid": 1816219,
+      "name": "噩梦D",
+      "fans": 1017021,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "一个愿终生与动漫相伴的逗比UP，粉丝群:438996918，商务合作请私聊并说明合作内容",
+      "videoTotal": 697,
+      "sampled": 10,
+      "titles": [
+        "最速开播！最先起飞！这就是10月最香的异世界女主！！【10月新番吐槽】",
+        "笑出猪叫的二次元你拼我猜！用垃圾还原动画？名场面满天飞！人均抽象艺术大师！【饭堂时刻218】",
+        "最高9.9分！这就是真正的年度最佳！42部7月新番完结吐槽·下",
+        "最低3.6分！根本就不存在这种动画！42部7月新番完结吐槽·上",
+        "海龟汤惊悚名场面！听见她说的谢谢你之后，我崩溃了…【饭堂时刻217】",
+        "史上最强加密通话！猜出是什么动画算你狠！抽象癫狂的动漫解码战！晋级赛下半场【动漫全能王8】",
+        "星趴爆笑名场面！一局游戏吃两颗雷三百承伤令四人五体投地抠出666！【饭堂时刻216】",
+        "我要看的就是这个啊！这就是7月最爽新番！7月新番吐槽【恶女不才】第7期",
+        "虐妻一时爽！追妻火葬场！！这就是7月最爽新番！7月新番吐槽【恶女不才】第6期",
+        "笑出猪叫！AI重画动画名场景100次之后？猜得出的才是动漫高手！【动漫猜猜看09】"
+      ],
+      "animeHitRate": 0.8,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/1816219",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%99%A9%E6%A2%A6D",
+        "https://space.bilibili.com/1816219"
+      ],
+      "fetchedAt": "2026-10-14T02:08:50.428Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 31954628,
+          "name": "头文字D的噩梦",
+          "fans": 41
+        },
+        {
+          "mid": 446092031,
+          "name": "十亿少女d噩梦",
+          "fans": 2
+        },
+        {
+          "mid": 1245802218,
+          "name": "d哥谭の噩梦b",
+          "fans": 3
+        }
+      ]
+    },
+    {
+      "keyword": "泛式",
+      "queryMatchedName": "泛式",
+      "exactNameMatch": true,
+      "mid": 63231,
+      "name": "泛式",
+      "fans": 6735670,
+      "official": "2025百大UP主、2025直播年度人气奖UP主、直播高能主播",
+      "sign": "谢谢你喜欢我的视频 |  微博@泛式",
+      "videoTotal": 389,
+      "sampled": 10,
+      "titles": [
+        "啊啊7月新番你到底给我下了什么药啊！！【泛式】",
+        "一觉醒来，突然多了三个妈妈......【泛式】",
+        "新番时光机！十年前的观众都在看什么？「2016年7月篇」泛式",
+        "笑出猪叫！AI重画动画名场景100次之后？猜得出的才是动漫高手！【动漫猜猜看09】",
+        "现在买入....一定爆赚！2026年10月新番导视！【泛式】",
+        "起猛了，在7月新番看到短剧了...... 【泛式】",
+        "看完7月新番，我走火入魔！浑身燥热！【泛式】",
+        "侦探大人，不是说好正经查案吗.....【泛式】",
+        "袜学导论：从脚踝到大腿，袜子如何成就二次元的顶级暗示！【泛式/次元论战】",
+        "终于....成为了海贼王的男人！【泛式】"
+      ],
+      "animeHitRate": 0.7,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/63231",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%B3%9B%E5%BC%8F",
+        "https://space.bilibili.com/63231"
+      ],
+      "fetchedAt": "2026-10-14T02:09:24.965Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 281341996,
+          "name": "下播型泛式录播组",
+          "fans": 294408
+        },
+        {
+          "mid": 382429165,
+          "name": "泛式之魂",
+          "fans": 2567
+        },
+        {
+          "mid": 1463485213,
+          "name": "泛式档案",
+          "fans": 1570
+        }
+      ]
+    },
+    {
+      "keyword": "瓶子君152",
+      "queryMatchedName": "瓶子君152",
+      "exactNameMatch": true,
+      "mid": 730732,
+      "name": "瓶子君152",
+      "fans": 4334043,
+      "official": "2025百大UP主、2023百大UP主、知名UP主",
+      "sign": "各位点个关注再走呗 ",
+      "videoTotal": 365,
+      "sampled": 10,
+      "titles": [
+        "评分4.7！神人多！神人神！神人又多又神！MewType梦限大完结吐槽！",
+        "评分9.3！长大能有多苦涩？重温野比大雄的人生！咋和童年看着不一样？【瓶子君152】",
+        "评分7.1！当太阳升起就把昨天忘记！假面骑士ZZZ完结吐槽！",
+        "笑出猪叫！AI重画动画名场景100次之后？猜得出的才是动漫高手！【动漫猜猜看09】",
+        "评分8.7！我们奥特曼有救啦！提欧奥特曼开播吐槽！",
+        "黑长直？进气口？光头？二次元人物的发型有多重要！？【bilibili次元论战】",
+        "当四星登顶的时候，我就知道熟悉的危机合约回来了",
+        "2026年动漫高考！二次元浓度大比拼？角逐真正的动漫高手！",
+        "这得看不少部！先生！2026年七月新番扫雷推荐！【瓶子君152】",
+        "评分9.1！只要抵达那个地方！假面骑士ZZZ中期吐槽！【瓶子君152】"
+      ],
+      "animeHitRate": 0.8,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/730732",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%93%B6%E5%AD%90%E5%90%9B152",
+        "https://space.bilibili.com/730732"
+      ],
+      "fetchedAt": "2026-10-14T02:10:07.202Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 393225873,
+          "name": "瓶子君152黑粉录播组",
+          "fans": 137960
+        },
+        {
+          "mid": 1363984927,
+          "name": "゚瓶子君152",
+          "fans": 820
+        },
+        {
+          "mid": 574078925,
+          "name": "瓶子君152今天吃嘉心糖",
+          "fans": 137
+        }
+      ]
+    },
+    {
+      "keyword": "凉风Kaze",
+      "queryMatchedName": "凉风Kaze",
+      "exactNameMatch": true,
+      "mid": 14110780,
+      "name": "凉风Kaze",
+      "fans": 6922641,
+      "official": "bilibili 2022百大UP主、2020年度弹幕人气奖UP主、直播高能主播",
+      "sign": "没有天赋那就重复",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/14110780",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%87%89%E9%A3%8EKaze",
+        "https://space.bilibili.com/14110780"
+      ],
+      "fetchedAt": "2026-10-14T02:10:53.718Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 18273798,
+          "name": "凉风Kaze_",
+          "fans": 166
+        },
+        {
+          "mid": 318102709,
+          "name": "凉風Kaze",
+          "fans": 61
+        },
+        {
+          "mid": 434994937,
+          "name": "涼風kaze",
+          "fans": 13
+        }
+      ]
+    },
+    {
+      "keyword": "LexBurner",
+      "queryMatchedName": "LexBurner",
+      "exactNameMatch": true,
+      "mid": 777536,
+      "name": "LexBurner",
+      "fans": 6077735,
+      "official": "2022年度巅峰主播、bilibili 知名UP主",
+      "sign": "商务vx:hyqiuqiu19；商务q:445591408 合作邮箱：lexkaixin@163.com",
+      "videoTotal": 539,
+      "sampled": 10,
+      "titles": [
+        "燃爆了！抽耳光竟然可以这么热血沸腾！",
+        "少走弯路！燕云十六声新手入坑指南大全！",
+        "比肩牛来！年度最抽象外国电影！看完笑喷了！",
+        "这部动画真的太神了！看得我根本停不下来！",
+        "从小玩到大！这游戏小时候抱过我！",
+        "打工人咋还心疼上亿万富翁了？",
+        "这绝对是2026头号大瓜！",
+        "全场笑翻没人能绷住！《牛来》真的是神作！",
+        "通俗易懂！一个视频带你看懂《奥德赛》！",
+        "名曲里面加说唱，是神仙改编还是毁经典？"
+      ],
+      "animeHitRate": 0.1,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/777536",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=LexBurner",
+        "https://space.bilibili.com/777536"
+      ],
+      "fetchedAt": "2026-10-14T02:11:25.153Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 234442877,
+          "name": "lexburner_a",
+          "fans": 241
+        },
+        {
+          "mid": 505800031,
+          "name": "世紀雾Lexburner",
+          "fans": 161
+        },
+        {
+          "mid": 5786059,
+          "name": "B站肖战lexburner",
+          "fans": 158
+        }
+      ]
+    },
+    {
+      "keyword": "木鱼水心",
+      "queryMatchedName": "木鱼水心",
+      "exactNameMatch": true,
+      "mid": 927587,
+      "name": "木鱼水心",
+      "fans": 14607508,
+      "official": "2025百大UP主、2024百大UP主、知名UP主",
+      "sign": "遥望理想，勇敢生存 | 商务合作：bd@ark-tv.com (请备注公司姓名及合作项目）公众号：木鱼水心",
+      "videoTotal": 1338,
+      "sampled": 10,
+      "titles": [
+        "比《2001太空漫游》更加深邃？逐帧解析史上最诗意科幻片《索拉里斯》",
+        "终成恶龙？AI巨头之间的爱恨情仇……【星之光01】",
+        "那些隐秘的AI巨头背后的故事",
+        "诺兰2.5亿巨制！看懂奥德赛",
+        "给你三年任期去管一座城市，怎么选才能最快搞出震惊全国的政绩？",
+        "极限上位！最终试炼！他如何用魔法打败魔法？",
+        "拼命省钱到处卷，怎么反而越活越累？看透经济底层逻辑，停止自我内耗",
+        "昨天还在当球队救星，怎么一个头衔砸下来，立马换了副嘴脸？",
+        "把人类划为两个物种的豆瓣9.4神作，看完我发现「灵魂」只是一场宏大的幻觉……",
+        "把军火卖给恐怖分子，竟是「爱国行为」？"
+      ],
+      "animeHitRate": 0.1,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/927587",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%9C%A8%E9%B1%BC%E6%B0%B4%E5%BF%83",
+        "https://space.bilibili.com/927587"
+      ],
+      "fetchedAt": "2026-10-14T02:11:55.103Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 96964459,
+          "name": "木魚水心",
+          "fans": 181
+        },
+        {
+          "mid": 1874333142,
+          "name": "不是木鱼水心是薰啦",
+          "fans": 92
+        },
+        {
+          "mid": 3745046799059346,
+          "name": "木鱼水心叫南瓜皮的我",
+          "fans": 271
+        }
+      ]
+    },
+    {
+      "keyword": "动画学术趴",
+      "queryMatchedName": "动画学术趴",
+      "exactNameMatch": true,
+      "mid": 97471052,
+      "name": "动画学术趴",
+      "fans": 774409,
+      "official": "bilibili 知名动漫UP主、专栏优质UP主",
+      "sign": "分享ACG相关的解析、科普、幕后专访，公众号同名。商务合作请加VX：biz-xiaopa",
+      "videoTotal": 2232,
+      "sampled": 10,
+      "titles": [
+        "无数人的纯爱天花板，为什么《好想告诉你》让我又着急又感动？",
+        "作为延续至今的高达/日本动画，《闪光的哈萨维》中凝视左翼革命悲剧意味着什么？",
+        "作者和主角一起梭哈？10月新番《FX战士久留美》揭示了怎样的人性与现实。",
+        "《樱兰高校男公关部》开播20周年，为什么藤冈春绯依旧是众多少女难以忘怀的女主角？",
+        "成神15年，《魔法少女小圆》如何暴击无数二次元，新剧场版有望迎来了结吗？",
+        "被误解了20年，《芭比》才是真正的大女主启蒙动画？",
+        "国产原创2D动画已成濒危物种...时隔六年回归的《记忆管理局》能打几分？",
+        "【精读】偶像动画发展史，从《偶像大师》《Lovelive！》开启的黄金时代，之后将何去何从？",
+        "小公司翻身之作：《在超市后门吸烟的二人》如何引起成年人的共鸣？",
+        "【精读】ACG圈层越来越丰富的今天，为什么儿童动画却被排挤了？"
+      ],
+      "animeHitRate": 0.7,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/97471052",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E7%94%BB%E5%AD%A6%E6%9C%AF%E8%B6%B4",
+        "https://space.bilibili.com/97471052"
+      ],
+      "fetchedAt": "2026-10-14T02:12:25.953Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 1808303613,
+          "name": "动画学术趴uofL",
+          "fans": 0
+        },
+        {
+          "mid": 319313261,
+          "name": "动画学术趴FQ",
+          "fans": 0
+        }
+      ]
+    },
+    {
+      "keyword": "时空蒸汽计划",
+      "queryMatchedName": "时空蒸汽计划",
+      "exactNameMatch": true,
+      "mid": 3014435,
+      "name": "时空蒸汽计划",
+      "fans": 139751,
+      "official": "",
+      "sign": "无数宝藏等待你挖掘",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/3014435",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%97%B6%E7%A9%BA%E8%92%B8%E6%B1%BD%E8%AE%A1%E5%88%92",
+        "https://space.bilibili.com/3014435"
+      ],
+      "fetchedAt": "2026-10-14T02:13:08.856Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": [
+        {
+          "mid": 3493140126239601,
+          "name": "时空蒸汽计划_",
+          "fans": 8
+        }
+      ]
+    },
+    {
+      "keyword": "Rofix",
+      "queryMatchedName": "Rofix",
+      "exactNameMatch": true,
+      "mid": 883877,
+      "name": "Rofix",
+      "fans": 230231,
+      "official": "bilibili 知名UP主",
+      "sign": "CG动画设计师，前腾讯主美，UCLA & RISD毕业",
+      "videoTotal": 286,
+      "sampled": 10,
+      "titles": [
+        "【英雄联盟S16】KNOW MY NAME逐帧技术分析",
+        "【失落星船：马拉松】从游戏设计的角度分析：为什么低温档案室地图设计如此精妙？",
+        "【无畏契约】2026冠军赛MV逐帧技术分析",
+        "【失落星船：马拉松】游戏最新坏消息+感想",
+        "【建议收藏】提升审美与效率！设计师必逛的灵感网站",
+        "DLSS 5 到底做了什么？游戏画面开始由 AI 决定",
+        "【牛来】动画师用毕生所学来逐帧技术分析",
+        "【GTA VI】惊人一瞥预告逐帧技术分析",
+        "【赛博朋克·边缘行者2】最新PV逐帧技术分析",
+        "【SIGGRAPH】AI做3D动画已经到什么程度了？"
+      ],
+      "animeHitRate": 0.2,
+      "otherHitRate": 0.1,
+      "spaceUrl": "https://space.bilibili.com/883877",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=Rofix",
+        "https://space.bilibili.com/883877"
+      ],
+      "fetchedAt": "2026-10-14T02:13:48.596Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 3707084579277248,
+          "name": "Rofix-Merch",
+          "fans": 0
+        },
+        {
+          "mid": 3707081326594086,
+          "name": "Abdul-Rofix",
+          "fans": 0
+        },
+        {
+          "mid": 542252949,
+          "name": "Rofix头号粉丝",
+          "fans": 0
+        }
+      ]
+    },
+    {
+      "keyword": "布墨迹动画",
+      "queryMatchedName": "布墨迹动画",
+      "exactNameMatch": true,
+      "mid": 1263688319,
+      "name": "布墨迹动画",
+      "fans": 373486,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "✨一时英，一世名\n✨正在更新-长生【我在大明的那些年】\n✨丢失剧集在【红?】同名\n✨長青文化【合】MJ530K0",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/1263688319",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%B8%83%E5%A2%A8%E8%BF%B9%E5%8A%A8%E7%94%BB",
+        "https://space.bilibili.com/1263688319"
+      ],
+      "fetchedAt": "2026-10-14T02:14:29.685Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": []
+    }
+  ],
+  "sortedByFans": [
+    {
+      "keyword": "木鱼水心",
+      "queryMatchedName": "木鱼水心",
+      "exactNameMatch": true,
+      "mid": 927587,
+      "name": "木鱼水心",
+      "fans": 14607508,
+      "official": "2025百大UP主、2024百大UP主、知名UP主",
+      "sign": "遥望理想，勇敢生存 | 商务合作：bd@ark-tv.com (请备注公司姓名及合作项目）公众号：木鱼水心",
+      "videoTotal": 1338,
+      "sampled": 10,
+      "titles": [
+        "比《2001太空漫游》更加深邃？逐帧解析史上最诗意科幻片《索拉里斯》",
+        "终成恶龙？AI巨头之间的爱恨情仇……【星之光01】",
+        "那些隐秘的AI巨头背后的故事",
+        "诺兰2.5亿巨制！看懂奥德赛",
+        "给你三年任期去管一座城市，怎么选才能最快搞出震惊全国的政绩？",
+        "极限上位！最终试炼！他如何用魔法打败魔法？",
+        "拼命省钱到处卷，怎么反而越活越累？看透经济底层逻辑，停止自我内耗",
+        "昨天还在当球队救星，怎么一个头衔砸下来，立马换了副嘴脸？",
+        "把人类划为两个物种的豆瓣9.4神作，看完我发现「灵魂」只是一场宏大的幻觉……",
+        "把军火卖给恐怖分子，竟是「爱国行为」？"
+      ],
+      "animeHitRate": 0.1,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/927587",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%9C%A8%E9%B1%BC%E6%B0%B4%E5%BF%83",
+        "https://space.bilibili.com/927587"
+      ],
+      "fetchedAt": "2026-10-14T02:11:55.103Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 96964459,
+          "name": "木魚水心",
+          "fans": 181
+        },
+        {
+          "mid": 1874333142,
+          "name": "不是木鱼水心是薰啦",
+          "fans": 92
+        },
+        {
+          "mid": 3745046799059346,
+          "name": "木鱼水心叫南瓜皮的我",
+          "fans": 271
+        }
+      ]
+    },
+    {
+      "keyword": "凉风Kaze",
+      "queryMatchedName": "凉风Kaze",
+      "exactNameMatch": true,
+      "mid": 14110780,
+      "name": "凉风Kaze",
+      "fans": 6922641,
+      "official": "bilibili 2022百大UP主、2020年度弹幕人气奖UP主、直播高能主播",
+      "sign": "没有天赋那就重复",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/14110780",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%87%89%E9%A3%8EKaze",
+        "https://space.bilibili.com/14110780"
+      ],
+      "fetchedAt": "2026-10-14T02:10:53.718Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 18273798,
+          "name": "凉风Kaze_",
+          "fans": 166
+        },
+        {
+          "mid": 318102709,
+          "name": "凉風Kaze",
+          "fans": 61
+        },
+        {
+          "mid": 434994937,
+          "name": "涼風kaze",
+          "fans": 13
+        }
+      ]
+    },
+    {
+      "keyword": "泛式",
+      "queryMatchedName": "泛式",
+      "exactNameMatch": true,
+      "mid": 63231,
+      "name": "泛式",
+      "fans": 6735670,
+      "official": "2025百大UP主、2025直播年度人气奖UP主、直播高能主播",
+      "sign": "谢谢你喜欢我的视频 |  微博@泛式",
+      "videoTotal": 389,
+      "sampled": 10,
+      "titles": [
+        "啊啊7月新番你到底给我下了什么药啊！！【泛式】",
+        "一觉醒来，突然多了三个妈妈......【泛式】",
+        "新番时光机！十年前的观众都在看什么？「2016年7月篇」泛式",
+        "笑出猪叫！AI重画动画名场景100次之后？猜得出的才是动漫高手！【动漫猜猜看09】",
+        "现在买入....一定爆赚！2026年10月新番导视！【泛式】",
+        "起猛了，在7月新番看到短剧了...... 【泛式】",
+        "看完7月新番，我走火入魔！浑身燥热！【泛式】",
+        "侦探大人，不是说好正经查案吗.....【泛式】",
+        "袜学导论：从脚踝到大腿，袜子如何成就二次元的顶级暗示！【泛式/次元论战】",
+        "终于....成为了海贼王的男人！【泛式】"
+      ],
+      "animeHitRate": 0.7,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/63231",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%B3%9B%E5%BC%8F",
+        "https://space.bilibili.com/63231"
+      ],
+      "fetchedAt": "2026-10-14T02:09:24.965Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 281341996,
+          "name": "下播型泛式录播组",
+          "fans": 294408
+        },
+        {
+          "mid": 382429165,
+          "name": "泛式之魂",
+          "fans": 2567
+        },
+        {
+          "mid": 1463485213,
+          "name": "泛式档案",
+          "fans": 1570
+        }
+      ]
+    },
+    {
+      "keyword": "LexBurner",
+      "queryMatchedName": "LexBurner",
+      "exactNameMatch": true,
+      "mid": 777536,
+      "name": "LexBurner",
+      "fans": 6077735,
+      "official": "2022年度巅峰主播、bilibili 知名UP主",
+      "sign": "商务vx:hyqiuqiu19；商务q:445591408 合作邮箱：lexkaixin@163.com",
+      "videoTotal": 539,
+      "sampled": 10,
+      "titles": [
+        "燃爆了！抽耳光竟然可以这么热血沸腾！",
+        "少走弯路！燕云十六声新手入坑指南大全！",
+        "比肩牛来！年度最抽象外国电影！看完笑喷了！",
+        "这部动画真的太神了！看得我根本停不下来！",
+        "从小玩到大！这游戏小时候抱过我！",
+        "打工人咋还心疼上亿万富翁了？",
+        "这绝对是2026头号大瓜！",
+        "全场笑翻没人能绷住！《牛来》真的是神作！",
+        "通俗易懂！一个视频带你看懂《奥德赛》！",
+        "名曲里面加说唱，是神仙改编还是毁经典？"
+      ],
+      "animeHitRate": 0.1,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/777536",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=LexBurner",
+        "https://space.bilibili.com/777536"
+      ],
+      "fetchedAt": "2026-10-14T02:11:25.153Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 234442877,
+          "name": "lexburner_a",
+          "fans": 241
+        },
+        {
+          "mid": 505800031,
+          "name": "世紀雾Lexburner",
+          "fans": 161
+        },
+        {
+          "mid": 5786059,
+          "name": "B站肖战lexburner",
+          "fans": 158
+        }
+      ]
+    },
+    {
+      "keyword": "瓶子君152",
+      "queryMatchedName": "瓶子君152",
+      "exactNameMatch": true,
+      "mid": 730732,
+      "name": "瓶子君152",
+      "fans": 4334043,
+      "official": "2025百大UP主、2023百大UP主、知名UP主",
+      "sign": "各位点个关注再走呗 ",
+      "videoTotal": 365,
+      "sampled": 10,
+      "titles": [
+        "评分4.7！神人多！神人神！神人又多又神！MewType梦限大完结吐槽！",
+        "评分9.3！长大能有多苦涩？重温野比大雄的人生！咋和童年看着不一样？【瓶子君152】",
+        "评分7.1！当太阳升起就把昨天忘记！假面骑士ZZZ完结吐槽！",
+        "笑出猪叫！AI重画动画名场景100次之后？猜得出的才是动漫高手！【动漫猜猜看09】",
+        "评分8.7！我们奥特曼有救啦！提欧奥特曼开播吐槽！",
+        "黑长直？进气口？光头？二次元人物的发型有多重要！？【bilibili次元论战】",
+        "当四星登顶的时候，我就知道熟悉的危机合约回来了",
+        "2026年动漫高考！二次元浓度大比拼？角逐真正的动漫高手！",
+        "这得看不少部！先生！2026年七月新番扫雷推荐！【瓶子君152】",
+        "评分9.1！只要抵达那个地方！假面骑士ZZZ中期吐槽！【瓶子君152】"
+      ],
+      "animeHitRate": 0.8,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/730732",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%93%B6%E5%AD%90%E5%90%9B152",
+        "https://space.bilibili.com/730732"
+      ],
+      "fetchedAt": "2026-10-14T02:10:07.202Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 393225873,
+          "name": "瓶子君152黑粉录播组",
+          "fans": 137960
+        },
+        {
+          "mid": 1363984927,
+          "name": "゚瓶子君152",
+          "fans": 820
+        },
+        {
+          "mid": 574078925,
+          "name": "瓶子君152今天吃嘉心糖",
+          "fans": 137
+        }
+      ]
+    },
+    {
+      "keyword": "尕丶天堂",
+      "queryMatchedName": "尕丶天堂",
+      "exactNameMatch": true,
+      "mid": 216025,
+      "name": "尕丶天堂",
+      "fans": 1646994,
+      "official": "bilibili 2019百大UP主、知名UP主、直播高能主播",
+      "sign": "跳票是大自然的规律啦~ 商业合作联系QQ：498843467 或微信号：tiantangSW",
+      "videoTotal": 1049,
+      "sampled": 10,
+      "titles": [
+        "2026 逆转裁判生日会——万般皆始终【bilibilionly同人扶持计划】",
+        "【漫画屋】彻底疯魔！见证赌狗少女的末路？新的危机正悄然降临！FX战士久留美#4",
+        "笑出猪叫的二次元你拼我猜！用垃圾还原动画？名场面满天飞！人均抽象艺术大师！【饭堂时刻218】",
+        "一人之力带火IP，无数老二次元心目中的女神！时崎狂三身上到底有什么魅力？【天堂】",
+        "【漫画屋】少女被迫下海？坏女人狠狠发力吃干抹净！我宣布这就是最强戒赌漫画！FX战士久留美#3",
+        "海龟汤惊悚名场面！听见她说的谢谢你之后，我崩溃了…【饭堂时刻217】",
+        "【漫画屋】颜艺癫狂！少女被彻底榨干！观众拍手称快！这就是赌狗的下场！FX战士久留美#2",
+        "11次暴雨时间线全梳理！一个视频带你看懂重返未来主线到4.0为止的全部剧情！【天堂】",
+        "史上最强加密通话！猜出是什么动画算你狠！抽象癫狂的动漫解码战！晋级赛下半场【动漫全能王8】",
+        "【天堂】霸权对决！阵容炸裂！10月新番必看的大作导视全推荐！"
+      ],
+      "animeHitRate": 0.7,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/216025",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%B0%95%E4%B8%B6%E5%A4%A9%E5%A0%82",
+        "https://space.bilibili.com/216025"
+      ],
+      "fetchedAt": "2026-10-14T02:05:54.565Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 381715558,
+          "name": "尕丶天堂-",
+          "fans": 153
+        },
+        {
+          "mid": 178659097,
+          "name": "励志上了尕天堂的秋蓂",
+          "fans": 2
+        },
+        {
+          "mid": 90156499,
+          "name": "尕-天堂",
+          "fans": 1
+        }
+      ]
+    },
+    {
+      "keyword": "噩梦D",
+      "queryMatchedName": "噩梦D",
+      "exactNameMatch": true,
+      "mid": 1816219,
+      "name": "噩梦D",
+      "fans": 1017021,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "一个愿终生与动漫相伴的逗比UP，粉丝群:438996918，商务合作请私聊并说明合作内容",
+      "videoTotal": 697,
+      "sampled": 10,
+      "titles": [
+        "最速开播！最先起飞！这就是10月最香的异世界女主！！【10月新番吐槽】",
+        "笑出猪叫的二次元你拼我猜！用垃圾还原动画？名场面满天飞！人均抽象艺术大师！【饭堂时刻218】",
+        "最高9.9分！这就是真正的年度最佳！42部7月新番完结吐槽·下",
+        "最低3.6分！根本就不存在这种动画！42部7月新番完结吐槽·上",
+        "海龟汤惊悚名场面！听见她说的谢谢你之后，我崩溃了…【饭堂时刻217】",
+        "史上最强加密通话！猜出是什么动画算你狠！抽象癫狂的动漫解码战！晋级赛下半场【动漫全能王8】",
+        "星趴爆笑名场面！一局游戏吃两颗雷三百承伤令四人五体投地抠出666！【饭堂时刻216】",
+        "我要看的就是这个啊！这就是7月最爽新番！7月新番吐槽【恶女不才】第7期",
+        "虐妻一时爽！追妻火葬场！！这就是7月最爽新番！7月新番吐槽【恶女不才】第6期",
+        "笑出猪叫！AI重画动画名场景100次之后？猜得出的才是动漫高手！【动漫猜猜看09】"
+      ],
+      "animeHitRate": 0.8,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/1816219",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%99%A9%E6%A2%A6D",
+        "https://space.bilibili.com/1816219"
+      ],
+      "fetchedAt": "2026-10-14T02:08:50.428Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 31954628,
+          "name": "头文字D的噩梦",
+          "fans": 41
+        },
+        {
+          "mid": 446092031,
+          "name": "十亿少女d噩梦",
+          "fans": 2
+        },
+        {
+          "mid": 1245802218,
+          "name": "d哥谭の噩梦b",
+          "fans": 3
+        }
+      ]
+    },
+    {
+      "keyword": "赫萝老师",
+      "queryMatchedName": "赫萝老师",
+      "exactNameMatch": true,
+      "mid": 1351379,
+      "name": "赫萝老师",
+      "fans": 992431,
+      "official": "bilibili 知名UP主、直播高能主播",
+      "sign": "纯外行，只是个观众，讲述动画背后的故事。商务合作请私信",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/1351379",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E8%B5%AB%E8%90%9D%E8%80%81%E5%B8%88",
+        "https://space.bilibili.com/1351379"
+      ],
+      "fetchedAt": "2026-10-14T02:08:20.134Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 4351250,
+          "name": "赫萝老师录播组",
+          "fans": 5761
+        },
+        {
+          "mid": 1587433903,
+          "name": "赫萝老师录播组v2",
+          "fans": 1878
+        },
+        {
+          "mid": 1967979877,
+          "name": "婚介所赫萝老师",
+          "fans": 2
+        }
+      ]
+    },
+    {
+      "keyword": "依然小智",
+      "queryMatchedName": "依然小智",
+      "exactNameMatch": true,
+      "mid": 137952,
+      "name": "依然小智",
+      "fans": 806924,
+      "official": "bilibili 知名UP主、直播高能主播",
+      "sign": "商务联系wx:satosi2023",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/137952",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%BE%9D%E7%84%B6%E5%B0%8F%E6%99%BA",
+        "https://space.bilibili.com/137952"
+      ],
+      "fetchedAt": "2026-10-14T02:06:41.523Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": [
+        {
+          "mid": 2970476,
+          "name": "依然小智障",
+          "fans": 199274
+        },
+        {
+          "mid": 8738273,
+          "name": "依然小智蟑",
+          "fans": 80
+        },
+        {
+          "mid": 8644909,
+          "name": "依然小智Alter",
+          "fans": 50
+        }
+      ]
+    },
+    {
+      "keyword": "动画学术趴",
+      "queryMatchedName": "动画学术趴",
+      "exactNameMatch": true,
+      "mid": 97471052,
+      "name": "动画学术趴",
+      "fans": 774409,
+      "official": "bilibili 知名动漫UP主、专栏优质UP主",
+      "sign": "分享ACG相关的解析、科普、幕后专访，公众号同名。商务合作请加VX：biz-xiaopa",
+      "videoTotal": 2232,
+      "sampled": 10,
+      "titles": [
+        "无数人的纯爱天花板，为什么《好想告诉你》让我又着急又感动？",
+        "作为延续至今的高达/日本动画，《闪光的哈萨维》中凝视左翼革命悲剧意味着什么？",
+        "作者和主角一起梭哈？10月新番《FX战士久留美》揭示了怎样的人性与现实。",
+        "《樱兰高校男公关部》开播20周年，为什么藤冈春绯依旧是众多少女难以忘怀的女主角？",
+        "成神15年，《魔法少女小圆》如何暴击无数二次元，新剧场版有望迎来了结吗？",
+        "被误解了20年，《芭比》才是真正的大女主启蒙动画？",
+        "国产原创2D动画已成濒危物种...时隔六年回归的《记忆管理局》能打几分？",
+        "【精读】偶像动画发展史，从《偶像大师》《Lovelive！》开启的黄金时代，之后将何去何从？",
+        "小公司翻身之作：《在超市后门吸烟的二人》如何引起成年人的共鸣？",
+        "【精读】ACG圈层越来越丰富的今天，为什么儿童动画却被排挤了？"
+      ],
+      "animeHitRate": 0.7,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/97471052",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E7%94%BB%E5%AD%A6%E6%9C%AF%E8%B6%B4",
+        "https://space.bilibili.com/97471052"
+      ],
+      "fetchedAt": "2026-10-14T02:12:25.953Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 1808303613,
+          "name": "动画学术趴uofL",
+          "fans": 0
+        },
+        {
+          "mid": 319313261,
+          "name": "动画学术趴FQ",
+          "fans": 0
+        }
+      ]
+    },
+    {
+      "keyword": "H萌团队",
+      "queryMatchedName": "H萌团队",
+      "exactNameMatch": true,
+      "mid": 18030567,
+      "name": "H萌团队",
+      "fans": 564754,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "致力做优质又好玩的ACG节目 商务合作联系QQ：690614413",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/18030567",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=H%E8%90%8C%E5%9B%A2%E9%98%9F",
+        "https://space.bilibili.com/18030567"
+      ],
+      "fetchedAt": "2026-10-14T02:05:18.056Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 3493084312636038,
+          "name": "H萌团队wq",
+          "fans": 0
+        },
+        {
+          "mid": 1115934315,
+          "name": "H萌团队2",
+          "fans": 0
+        },
+        {
+          "mid": 220572661,
+          "name": "H-萌团队",
+          "fans": 0
+        }
+      ]
+    },
+    {
+      "keyword": "布墨迹动画",
+      "queryMatchedName": "布墨迹动画",
+      "exactNameMatch": true,
+      "mid": 1263688319,
+      "name": "布墨迹动画",
+      "fans": 373486,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "✨一时英，一世名\n✨正在更新-长生【我在大明的那些年】\n✨丢失剧集在【红?】同名\n✨長青文化【合】MJ530K0",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/1263688319",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%B8%83%E5%A2%A8%E8%BF%B9%E5%8A%A8%E7%94%BB",
+        "https://space.bilibili.com/1263688319"
+      ],
+      "fetchedAt": "2026-10-14T02:14:29.685Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": []
+    },
+    {
+      "keyword": "Rofix",
+      "queryMatchedName": "Rofix",
+      "exactNameMatch": true,
+      "mid": 883877,
+      "name": "Rofix",
+      "fans": 230231,
+      "official": "bilibili 知名UP主",
+      "sign": "CG动画设计师，前腾讯主美，UCLA & RISD毕业",
+      "videoTotal": 286,
+      "sampled": 10,
+      "titles": [
+        "【英雄联盟S16】KNOW MY NAME逐帧技术分析",
+        "【失落星船：马拉松】从游戏设计的角度分析：为什么低温档案室地图设计如此精妙？",
+        "【无畏契约】2026冠军赛MV逐帧技术分析",
+        "【失落星船：马拉松】游戏最新坏消息+感想",
+        "【建议收藏】提升审美与效率！设计师必逛的灵感网站",
+        "DLSS 5 到底做了什么？游戏画面开始由 AI 决定",
+        "【牛来】动画师用毕生所学来逐帧技术分析",
+        "【GTA VI】惊人一瞥预告逐帧技术分析",
+        "【赛博朋克·边缘行者2】最新PV逐帧技术分析",
+        "【SIGGRAPH】AI做3D动画已经到什么程度了？"
+      ],
+      "animeHitRate": 0.2,
+      "otherHitRate": 0.1,
+      "spaceUrl": "https://space.bilibili.com/883877",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=Rofix",
+        "https://space.bilibili.com/883877"
+      ],
+      "fetchedAt": "2026-10-14T02:13:48.596Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 3707084579277248,
+          "name": "Rofix-Merch",
+          "fans": 0
+        },
+        {
+          "mid": 3707081326594086,
+          "name": "Abdul-Rofix",
+          "fans": 0
+        },
+        {
+          "mid": 542252949,
+          "name": "Rofix头号粉丝",
+          "fans": 0
+        }
+      ]
+    },
+    {
+      "keyword": "时空蒸汽计划",
+      "queryMatchedName": "时空蒸汽计划",
+      "exactNameMatch": true,
+      "mid": 3014435,
+      "name": "时空蒸汽计划",
+      "fans": 139751,
+      "official": "",
+      "sign": "无数宝藏等待你挖掘",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/3014435",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%97%B6%E7%A9%BA%E8%92%B8%E6%B1%BD%E8%AE%A1%E5%88%92",
+        "https://space.bilibili.com/3014435"
+      ],
+      "fetchedAt": "2026-10-14T02:13:08.856Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": [
+        {
+          "mid": 3493140126239601,
+          "name": "时空蒸汽计划_",
+          "fans": 8
+        }
+      ]
+    },
+    {
+      "keyword": "Hazx",
+      "queryMatchedName": "Hazx",
+      "exactNameMatch": true,
+      "mid": 594864,
+      "name": "Hazx",
+      "fans": 4286,
+      "official": "",
+      "sign": "ACG界某不知名的大绅士(LSP).. 微博@Hazx君丶",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/594864",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=Hazx",
+        "https://space.bilibili.com/594864"
+      ],
+      "fetchedAt": "2026-10-14T02:07:29.581Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 258519816,
+          "name": "hazx-",
+          "fans": 2
+        },
+        {
+          "mid": 3707006938515632,
+          "name": "妙hazx",
+          "fans": 5
+        },
+        {
+          "mid": 500384627,
+          "name": "hazx希",
+          "fans": 1
+        }
+      ]
+    }
+  ]
+}

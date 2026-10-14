@@ -1,0 +1,76 @@
+{
+  "keyword": "动漫小新",
+  "status": "verified",
+  "note": "",
+  "searchHits": [
+    {
+      "mid": 16871527,
+      "name": "动漫小新",
+      "fans": 0,
+      "videoCount": 0,
+      "sign": "",
+      "official": "",
+      "level": 2,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E5%B0%8F%E6%96%B0"
+    },
+    {
+      "mid": 10941232,
+      "name": "动漫小新姬",
+      "fans": 1321,
+      "videoCount": 264,
+      "sign": "供给各位观众茶余饭后打发时间，繁忙之中也要注意休息哦~~",
+      "official": "",
+      "level": 5,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E5%B0%8F%E6%96%B0"
+    },
+    {
+      "mid": 226089592,
+      "name": "北雁动漫小新",
+      "fans": 39,
+      "videoCount": 2,
+      "sign": "",
+      "official": "",
+      "level": 3,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E5%B0%8F%E6%96%B0"
+    },
+    {
+      "mid": 439173440,
+      "name": "动漫小新-",
+      "fans": 6,
+      "videoCount": 2,
+      "sign": "碌碌有为",
+      "official": "",
+      "level": 4,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E5%B0%8F%E6%96%B0"
+    },
+    {
+      "mid": 3546654347102353,
+      "name": "动漫小新-一起看动漫",
+      "fans": 1,
+      "videoCount": 8,
+      "sign": "分享喜欢的动漫\n剪辑新手-如果有不妥跪求指出\n感谢大家~",
+      "official": "",
+      "level": 2,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E5%B0%8F%E6%96%B0"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": "16871527",
+    "name": "动漫小新",
+    "sign": "",
+    "official": "",
+    "source": "https://api.bilibili.com/x/web-interface/card?mid=16871527"
+  },
+  "fanCountFromSearch": 0,
+  "videoTotal": 0,
+  "videos": [],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T15:50:53.358Z",
+  "sources": [
+    "https://space.bilibili.com/16871527",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E5%B0%8F%E6%96%B0",
+    "https://api.bilibili.com/x/web-interface/card?mid=16871527",
+    "https://api.bilibili.com/x/space/wbi/arc/search?mid=16871527"
+  ]
+}

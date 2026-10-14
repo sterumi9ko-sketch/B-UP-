@@ -1,0 +1,961 @@
+{
+  "generatedAt": "2026-10-14T02:15:12.664Z",
+  "results": [
+    {
+      "keyword": "中二电波台",
+      "queryMatchedName": "中二电波台",
+      "exactNameMatch": true,
+      "mid": 213741,
+      "name": "中二电波台",
+      "fans": 316413,
+      "official": "",
+      "sign": "勃：weibo.com/ganeid",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/213741",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%B8%AD%E4%BA%8C%E7%94%B5%E6%B3%A2%E5%8F%B0",
+        "https://space.bilibili.com/213741"
+      ],
+      "fetchedAt": "2026-10-14T02:05:17.579Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": [
+        {
+          "mid": 5458892,
+          "name": "中二電波台",
+          "fans": 139
+        },
+        {
+          "mid": 35633686,
+          "name": "-中二电波台",
+          "fans": 41
+        },
+        {
+          "mid": 3493277663758803,
+          "name": "中二物理电波台JXY",
+          "fans": 463
+        }
+      ]
+    },
+    {
+      "keyword": "动画魂Anitama",
+      "queryMatchedName": "动画魂-Anitama",
+      "exactNameMatch": false,
+      "mid": 11357018,
+      "name": "动画魂-Anitama",
+      "fans": 600741,
+      "official": "专栏优质UP主",
+      "sign": "讲道理的动漫媒体，官方微博：@动画魂Anitama新闻资讯 商务合作请站内私信。",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/11357018",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E7%94%BB%E9%AD%82Anitama",
+        "https://space.bilibili.com/11357018"
+      ],
+      "fetchedAt": "2026-10-14T02:06:08.194Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": []
+    },
+    {
+      "keyword": "名作之壁吧",
+      "queryMatchedName": "名作之壁吧",
+      "exactNameMatch": true,
+      "mid": 2859372,
+      "name": "名作之壁吧",
+      "fans": 470357,
+      "official": "bilibili 知名UP主",
+      "sign": "科普动画知识、统计销量评分、分享观点资讯的动画爱好者组织；合作qq 2208458802。",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/2859372",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%90%8D%E4%BD%9C%E4%B9%8B%E5%A3%81%E5%90%A7",
+        "https://space.bilibili.com/2859372"
+      ],
+      "fetchedAt": "2026-10-14T02:06:57.801Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 229995315,
+          "name": "り名作之壁吧",
+          "fans": 0
+        },
+        {
+          "mid": 199607643,
+          "name": "ボ名作之壁吧",
+          "fans": 0
+        }
+      ]
+    },
+    {
+      "keyword": "华白雨",
+      "queryMatchedName": "华白雨",
+      "exactNameMatch": true,
+      "mid": 277665295,
+      "name": "华白雨",
+      "fans": 223614,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "兼职UP，更新频率不固定，最近疯狂加班中（在此谢罪！）",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/277665295",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8D%8E%E7%99%BD%E9%9B%A8",
+        "https://space.bilibili.com/277665295"
+      ],
+      "fetchedAt": "2026-10-14T02:07:49.333Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 37629329,
+          "name": "白華-花雨",
+          "fans": 1860
+        },
+        {
+          "mid": 3493126293424248,
+          "name": "白华雨",
+          "fans": 287
+        },
+        {
+          "mid": 168523349,
+          "name": "寺雨白华",
+          "fans": 93
+        }
+      ]
+    },
+    {
+      "keyword": "苏克杯",
+      "queryMatchedName": "苏克杯",
+      "exactNameMatch": true,
+      "mid": 8497684,
+      "name": "苏克杯",
+      "fans": 315792,
+      "official": "bilibili 知名UP主",
+      "sign": "保佑少年的坚定永不褪色",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/8497684",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E8%8B%8F%E5%85%8B%E6%9D%AF",
+        "https://space.bilibili.com/8497684"
+      ],
+      "fetchedAt": "2026-10-14T02:08:42.045Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 325609494,
+          "name": "阿克苏姆砸水杯",
+          "fans": 29
+        }
+      ]
+    },
+    {
+      "keyword": "洛天lee",
+      "queryMatchedName": "洛天lee",
+      "exactNameMatch": true,
+      "mid": 3360633,
+      "name": "洛天lee",
+      "fans": 447753,
+      "official": "bilibili 新星UP主",
+      "sign": "愿你的坚持都有回报～  商务qq:3135515164",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/3360633",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%B4%9B%E5%A4%A9lee",
+        "https://space.bilibili.com/3360633"
+      ],
+      "fetchedAt": "2026-10-14T02:09:30.607Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 700795431,
+          "name": "洛天Lee的粉丝",
+          "fans": 6
+        },
+        {
+          "mid": 505169341,
+          "name": "催更洛天lee",
+          "fans": 6
+        }
+      ]
+    },
+    {
+      "keyword": "黝黑蜗壳天眼老师",
+      "queryMatchedName": "黝黑蜗壳天眼老师",
+      "exactNameMatch": true,
+      "mid": 14068111,
+      "name": "黝黑蜗壳天眼老师",
+      "fans": 1372744,
+      "official": "bilibili 知名UP主",
+      "sign": "商务合作QQ3281806659 微信willwzw15 长篇讲逻辑，短篇讲故事，提问伏特加的本体是什么？",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/14068111",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E9%BB%9D%E9%BB%91%E8%9C%97%E5%A3%B3%E5%A4%A9%E7%9C%BC%E8%80%81%E5%B8%88",
+        "https://space.bilibili.com/14068111"
+      ],
+      "fetchedAt": "2026-10-14T02:10:15.366Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": []
+    },
+    {
+      "keyword": "咕噜一口小三胖",
+      "queryMatchedName": "咕噜一口小三胖",
+      "exactNameMatch": true,
+      "mid": 677139412,
+      "name": "咕噜一口小三胖",
+      "fans": 402952,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "商务合作：fwqfqxjy   入驻勿扰谢谢B站的阿信说动漫都是假的！别的平台基本是真的太难受了~~",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/677139412",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%92%95%E5%99%9C%E4%B8%80%E5%8F%A3%E5%B0%8F%E4%B8%89%E8%83%96",
+        "https://space.bilibili.com/677139412"
+      ],
+      "fetchedAt": "2026-10-14T02:11:03.980Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": []
+    },
+    {
+      "keyword": "利维坦mY",
+      "queryMatchedName": "利维坦mY",
+      "exactNameMatch": true,
+      "mid": 7946432,
+      "name": "利维坦mY",
+      "fans": 1942250,
+      "official": "2025百大UP主、2024百大UP主、知名UP主",
+      "sign": "微博@利维坦mY 商务合作微信：levitan81（全小写）添加请备注项目.未加入任何MCN",
+      "videoTotal": 725,
+      "sampled": 10,
+      "titles": [
+        "绝境求生！韩立最爽的一集！《凡人修仙传》195逐帧解析",
+        "神迹之下,皆是人心！鸣潮如何诠释文明不屈？",
+        "元婴终极之战！藏了多少细节？《凡人修仙传》194逐帧解析",
+        "牺牲一切！心为何是梦州最好的岁主？【鸣潮3.7】深度解析",
+        "为什么古人敬神，却从不怕神？【燕云十六声】剧情解析",
+        "修仙战争！大战开幕！《凡人修仙传》193逐帧解析",
+        "为什么《时光代理人》越看越绝望？【入坑指南】",
+        "血腥残酷！为什么有些神，必须被拉下神坛？",
+        "仙凡殊途,大战将启！《凡人修仙传》192逐帧解析",
+        "胡闹厨房团队新作！双人游戏《怪镇奇旅》到底如何？"
+      ],
+      "animeHitRate": 0.6,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/7946432",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%88%A9%E7%BB%B4%E5%9D%A6mY",
+        "https://space.bilibili.com/7946432"
+      ],
+      "fetchedAt": "2026-10-14T02:11:40.635Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 3546703286241452,
+          "name": "李宣美利维坦mY",
+          "fans": 16
+        },
+        {
+          "mid": 353848762,
+          "name": "维利坦mY",
+          "fans": 139
+        },
+        {
+          "mid": 3546612003506187,
+          "name": "利维坦my1364",
+          "fans": 12
+        }
+      ]
+    },
+    {
+      "keyword": "齐天大肾余潇洒",
+      "queryMatchedName": "齐天大肾余潇洒",
+      "exactNameMatch": true,
+      "mid": 5293668,
+      "name": "齐天大肾余潇洒",
+      "fans": 1083039,
+      "official": "bilibili 2020百大UP主、知名UP主",
+      "sign": "男人至死都是少年，女人也是。  ",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/5293668",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E9%BD%90%E5%A4%A9%E5%A4%A7%E8%82%BE%E4%BD%99%E6%BD%87%E6%B4%92",
+        "https://space.bilibili.com/5293668"
+      ],
+      "fetchedAt": "2026-10-14T02:12:24.999Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 30686805,
+          "name": "齐天大肾余潇洒520",
+          "fans": 1
+        }
+      ]
+    },
+    {
+      "keyword": "疯奶说",
+      "status": "not_found"
+    },
+    {
+      "keyword": "动画学术趴",
+      "queryMatchedName": "动画学术趴",
+      "exactNameMatch": true,
+      "mid": 97471052,
+      "name": "动画学术趴",
+      "fans": 774409,
+      "official": "bilibili 知名动漫UP主、专栏优质UP主",
+      "sign": "分享ACG相关的解析、科普、幕后专访，公众号同名。商务合作请加VX：biz-xiaopa",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/97471052",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E7%94%BB%E5%AD%A6%E6%9C%AF%E8%B6%B4",
+        "https://space.bilibili.com/97471052"
+      ],
+      "fetchedAt": "2026-10-14T02:13:09.983Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": [
+        {
+          "mid": 1808303613,
+          "name": "动画学术趴uofL",
+          "fans": 0
+        },
+        {
+          "mid": 319313261,
+          "name": "动画学术趴FQ",
+          "fans": 0
+        }
+      ]
+    },
+    {
+      "keyword": "时空蒸汽计划",
+      "queryMatchedName": "时空蒸汽计划",
+      "exactNameMatch": true,
+      "mid": 3014435,
+      "name": "时空蒸汽计划",
+      "fans": 139751,
+      "official": "",
+      "sign": "无数宝藏等待你挖掘",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/3014435",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%97%B6%E7%A9%BA%E8%92%B8%E6%B1%BD%E8%AE%A1%E5%88%92",
+        "https://space.bilibili.com/3014435"
+      ],
+      "fetchedAt": "2026-10-14T02:13:52.935Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": [
+        {
+          "mid": 3493140126239601,
+          "name": "时空蒸汽计划_",
+          "fans": 8
+        }
+      ]
+    },
+    {
+      "keyword": "Rofix",
+      "queryMatchedName": "Rofix",
+      "exactNameMatch": true,
+      "mid": 883877,
+      "name": "Rofix",
+      "fans": 230231,
+      "official": "bilibili 知名UP主",
+      "sign": "CG动画设计师，前腾讯主美，UCLA & RISD毕业",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/883877",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=Rofix",
+        "https://space.bilibili.com/883877"
+      ],
+      "fetchedAt": "2026-10-14T02:14:33.054Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": [
+        {
+          "mid": 3707084579277248,
+          "name": "Rofix-Merch",
+          "fans": 0
+        },
+        {
+          "mid": 3707081326594086,
+          "name": "Abdul-Rofix",
+          "fans": 0
+        },
+        {
+          "mid": 542252949,
+          "name": "Rofix头号粉丝",
+          "fans": 0
+        }
+      ]
+    },
+    {
+      "keyword": "布墨迹动画",
+      "queryMatchedName": "布墨迹动画",
+      "exactNameMatch": true,
+      "mid": 1263688319,
+      "name": "布墨迹动画",
+      "fans": 373486,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "✨一时英，一世名\n✨正在更新-长生【我在大明的那些年】\n✨丢失剧集在【红?】同名\n✨長青文化【合】MJ530K0",
+      "videoTotal": 364,
+      "sampled": 10,
+      "titles": [
+        "【第572集】我去过你们草原那儿，是很久之前的事了",
+        "【第571集】皇上，按照这个逻辑，布青也是你媳妇儿",
+        "【第570集】太后若是有异议，皇上就在隔壁",
+        "【第569集】太子是未来的皇帝，太子是皇帝的敌人",
+        "【第568集】授人以鱼不如授人以渔，十年寒窗苦读，你读的啥啊",
+        "【第567集】皇权越弱，皇权越强——嘉靖悟了",
+        "【第566集】当人人都读得起书，便不会再有孔乙己了",
+        "【第565集】你就偷着乐吧，大明皇帝都没这么拿捏过我。",
+        "【第564集】下次来，希望你还能陪我喝两杯",
+        "【第563集】大师兄，您已超越了张祖师，青出于蓝了？"
+      ],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/1263688319",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%B8%83%E5%A2%A8%E8%BF%B9%E5%8A%A8%E7%94%BB",
+        "https://space.bilibili.com/1263688319"
+      ],
+      "fetchedAt": "2026-10-14T02:15:11.459Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": []
+    }
+  ],
+  "sortedByFans": [
+    {
+      "keyword": "利维坦mY",
+      "queryMatchedName": "利维坦mY",
+      "exactNameMatch": true,
+      "mid": 7946432,
+      "name": "利维坦mY",
+      "fans": 1942250,
+      "official": "2025百大UP主、2024百大UP主、知名UP主",
+      "sign": "微博@利维坦mY 商务合作微信：levitan81（全小写）添加请备注项目.未加入任何MCN",
+      "videoTotal": 725,
+      "sampled": 10,
+      "titles": [
+        "绝境求生！韩立最爽的一集！《凡人修仙传》195逐帧解析",
+        "神迹之下,皆是人心！鸣潮如何诠释文明不屈？",
+        "元婴终极之战！藏了多少细节？《凡人修仙传》194逐帧解析",
+        "牺牲一切！心为何是梦州最好的岁主？【鸣潮3.7】深度解析",
+        "为什么古人敬神，却从不怕神？【燕云十六声】剧情解析",
+        "修仙战争！大战开幕！《凡人修仙传》193逐帧解析",
+        "为什么《时光代理人》越看越绝望？【入坑指南】",
+        "血腥残酷！为什么有些神，必须被拉下神坛？",
+        "仙凡殊途,大战将启！《凡人修仙传》192逐帧解析",
+        "胡闹厨房团队新作！双人游戏《怪镇奇旅》到底如何？"
+      ],
+      "animeHitRate": 0.6,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/7946432",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%88%A9%E7%BB%B4%E5%9D%A6mY",
+        "https://space.bilibili.com/7946432"
+      ],
+      "fetchedAt": "2026-10-14T02:11:40.635Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": [
+        {
+          "mid": 3546703286241452,
+          "name": "李宣美利维坦mY",
+          "fans": 16
+        },
+        {
+          "mid": 353848762,
+          "name": "维利坦mY",
+          "fans": 139
+        },
+        {
+          "mid": 3546612003506187,
+          "name": "利维坦my1364",
+          "fans": 12
+        }
+      ]
+    },
+    {
+      "keyword": "黝黑蜗壳天眼老师",
+      "queryMatchedName": "黝黑蜗壳天眼老师",
+      "exactNameMatch": true,
+      "mid": 14068111,
+      "name": "黝黑蜗壳天眼老师",
+      "fans": 1372744,
+      "official": "bilibili 知名UP主",
+      "sign": "商务合作QQ3281806659 微信willwzw15 长篇讲逻辑，短篇讲故事，提问伏特加的本体是什么？",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/14068111",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E9%BB%9D%E9%BB%91%E8%9C%97%E5%A3%B3%E5%A4%A9%E7%9C%BC%E8%80%81%E5%B8%88",
+        "https://space.bilibili.com/14068111"
+      ],
+      "fetchedAt": "2026-10-14T02:10:15.366Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": []
+    },
+    {
+      "keyword": "齐天大肾余潇洒",
+      "queryMatchedName": "齐天大肾余潇洒",
+      "exactNameMatch": true,
+      "mid": 5293668,
+      "name": "齐天大肾余潇洒",
+      "fans": 1083039,
+      "official": "bilibili 2020百大UP主、知名UP主",
+      "sign": "男人至死都是少年，女人也是。  ",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/5293668",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E9%BD%90%E5%A4%A9%E5%A4%A7%E8%82%BE%E4%BD%99%E6%BD%87%E6%B4%92",
+        "https://space.bilibili.com/5293668"
+      ],
+      "fetchedAt": "2026-10-14T02:12:24.999Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 30686805,
+          "name": "齐天大肾余潇洒520",
+          "fans": 1
+        }
+      ]
+    },
+    {
+      "keyword": "动画学术趴",
+      "queryMatchedName": "动画学术趴",
+      "exactNameMatch": true,
+      "mid": 97471052,
+      "name": "动画学术趴",
+      "fans": 774409,
+      "official": "bilibili 知名动漫UP主、专栏优质UP主",
+      "sign": "分享ACG相关的解析、科普、幕后专访，公众号同名。商务合作请加VX：biz-xiaopa",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/97471052",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E7%94%BB%E5%AD%A6%E6%9C%AF%E8%B6%B4",
+        "https://space.bilibili.com/97471052"
+      ],
+      "fetchedAt": "2026-10-14T02:13:09.983Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": [
+        {
+          "mid": 1808303613,
+          "name": "动画学术趴uofL",
+          "fans": 0
+        },
+        {
+          "mid": 319313261,
+          "name": "动画学术趴FQ",
+          "fans": 0
+        }
+      ]
+    },
+    {
+      "keyword": "动画魂Anitama",
+      "queryMatchedName": "动画魂-Anitama",
+      "exactNameMatch": false,
+      "mid": 11357018,
+      "name": "动画魂-Anitama",
+      "fans": 600741,
+      "official": "专栏优质UP主",
+      "sign": "讲道理的动漫媒体，官方微博：@动画魂Anitama新闻资讯 商务合作请站内私信。",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/11357018",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E7%94%BB%E9%AD%82Anitama",
+        "https://space.bilibili.com/11357018"
+      ],
+      "fetchedAt": "2026-10-14T02:06:08.194Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": []
+    },
+    {
+      "keyword": "名作之壁吧",
+      "queryMatchedName": "名作之壁吧",
+      "exactNameMatch": true,
+      "mid": 2859372,
+      "name": "名作之壁吧",
+      "fans": 470357,
+      "official": "bilibili 知名UP主",
+      "sign": "科普动画知识、统计销量评分、分享观点资讯的动画爱好者组织；合作qq 2208458802。",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/2859372",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%90%8D%E4%BD%9C%E4%B9%8B%E5%A3%81%E5%90%A7",
+        "https://space.bilibili.com/2859372"
+      ],
+      "fetchedAt": "2026-10-14T02:06:57.801Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 229995315,
+          "name": "り名作之壁吧",
+          "fans": 0
+        },
+        {
+          "mid": 199607643,
+          "name": "ボ名作之壁吧",
+          "fans": 0
+        }
+      ]
+    },
+    {
+      "keyword": "洛天lee",
+      "queryMatchedName": "洛天lee",
+      "exactNameMatch": true,
+      "mid": 3360633,
+      "name": "洛天lee",
+      "fans": 447753,
+      "official": "bilibili 新星UP主",
+      "sign": "愿你的坚持都有回报～  商务qq:3135515164",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/3360633",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%B4%9B%E5%A4%A9lee",
+        "https://space.bilibili.com/3360633"
+      ],
+      "fetchedAt": "2026-10-14T02:09:30.607Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 700795431,
+          "name": "洛天Lee的粉丝",
+          "fans": 6
+        },
+        {
+          "mid": 505169341,
+          "name": "催更洛天lee",
+          "fans": 6
+        }
+      ]
+    },
+    {
+      "keyword": "咕噜一口小三胖",
+      "queryMatchedName": "咕噜一口小三胖",
+      "exactNameMatch": true,
+      "mid": 677139412,
+      "name": "咕噜一口小三胖",
+      "fans": 402952,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "商务合作：fwqfqxjy   入驻勿扰谢谢B站的阿信说动漫都是假的！别的平台基本是真的太难受了~~",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/677139412",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%92%95%E5%99%9C%E4%B8%80%E5%8F%A3%E5%B0%8F%E4%B8%89%E8%83%96",
+        "https://space.bilibili.com/677139412"
+      ],
+      "fetchedAt": "2026-10-14T02:11:03.980Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": []
+    },
+    {
+      "keyword": "布墨迹动画",
+      "queryMatchedName": "布墨迹动画",
+      "exactNameMatch": true,
+      "mid": 1263688319,
+      "name": "布墨迹动画",
+      "fans": 373486,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "✨一时英，一世名\n✨正在更新-长生【我在大明的那些年】\n✨丢失剧集在【红?】同名\n✨長青文化【合】MJ530K0",
+      "videoTotal": 364,
+      "sampled": 10,
+      "titles": [
+        "【第572集】我去过你们草原那儿，是很久之前的事了",
+        "【第571集】皇上，按照这个逻辑，布青也是你媳妇儿",
+        "【第570集】太后若是有异议，皇上就在隔壁",
+        "【第569集】太子是未来的皇帝，太子是皇帝的敌人",
+        "【第568集】授人以鱼不如授人以渔，十年寒窗苦读，你读的啥啊",
+        "【第567集】皇权越弱，皇权越强——嘉靖悟了",
+        "【第566集】当人人都读得起书，便不会再有孔乙己了",
+        "【第565集】你就偷着乐吧，大明皇帝都没这么拿捏过我。",
+        "【第564集】下次来，希望你还能陪我喝两杯",
+        "【第563集】大师兄，您已超越了张祖师，青出于蓝了？"
+      ],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/1263688319",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%B8%83%E5%A2%A8%E8%BF%B9%E5%8A%A8%E7%94%BB",
+        "https://space.bilibili.com/1263688319"
+      ],
+      "fetchedAt": "2026-10-14T02:15:11.459Z",
+      "status": "verified",
+      "note": "",
+      "searchAlternatives": []
+    },
+    {
+      "keyword": "中二电波台",
+      "queryMatchedName": "中二电波台",
+      "exactNameMatch": true,
+      "mid": 213741,
+      "name": "中二电波台",
+      "fans": 316413,
+      "official": "",
+      "sign": "勃：weibo.com/ganeid",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/213741",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%B8%AD%E4%BA%8C%E7%94%B5%E6%B3%A2%E5%8F%B0",
+        "https://space.bilibili.com/213741"
+      ],
+      "fetchedAt": "2026-10-14T02:05:17.579Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": [
+        {
+          "mid": 5458892,
+          "name": "中二電波台",
+          "fans": 139
+        },
+        {
+          "mid": 35633686,
+          "name": "-中二电波台",
+          "fans": 41
+        },
+        {
+          "mid": 3493277663758803,
+          "name": "中二物理电波台JXY",
+          "fans": 463
+        }
+      ]
+    },
+    {
+      "keyword": "苏克杯",
+      "queryMatchedName": "苏克杯",
+      "exactNameMatch": true,
+      "mid": 8497684,
+      "name": "苏克杯",
+      "fans": 315792,
+      "official": "bilibili 知名UP主",
+      "sign": "保佑少年的坚定永不褪色",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/8497684",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E8%8B%8F%E5%85%8B%E6%9D%AF",
+        "https://space.bilibili.com/8497684"
+      ],
+      "fetchedAt": "2026-10-14T02:08:42.045Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 325609494,
+          "name": "阿克苏姆砸水杯",
+          "fans": 29
+        }
+      ]
+    },
+    {
+      "keyword": "Rofix",
+      "queryMatchedName": "Rofix",
+      "exactNameMatch": true,
+      "mid": 883877,
+      "name": "Rofix",
+      "fans": 230231,
+      "official": "bilibili 知名UP主",
+      "sign": "CG动画设计师，前腾讯主美，UCLA & RISD毕业",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/883877",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=Rofix",
+        "https://space.bilibili.com/883877"
+      ],
+      "fetchedAt": "2026-10-14T02:14:33.054Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": [
+        {
+          "mid": 3707084579277248,
+          "name": "Rofix-Merch",
+          "fans": 0
+        },
+        {
+          "mid": 3707081326594086,
+          "name": "Abdul-Rofix",
+          "fans": 0
+        },
+        {
+          "mid": 542252949,
+          "name": "Rofix头号粉丝",
+          "fans": 0
+        }
+      ]
+    },
+    {
+      "keyword": "华白雨",
+      "queryMatchedName": "华白雨",
+      "exactNameMatch": true,
+      "mid": 277665295,
+      "name": "华白雨",
+      "fans": 223614,
+      "official": "bilibili 知名动漫UP主",
+      "sign": "兼职UP，更新频率不固定，最近疯狂加班中（在此谢罪！）",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/277665295",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8D%8E%E7%99%BD%E9%9B%A8",
+        "https://space.bilibili.com/277665295"
+      ],
+      "fetchedAt": "2026-10-14T02:07:49.333Z",
+      "status": "partial",
+      "note": "投稿接口 code=-352 风控校验失败",
+      "searchAlternatives": [
+        {
+          "mid": 37629329,
+          "name": "白華-花雨",
+          "fans": 1860
+        },
+        {
+          "mid": 3493126293424248,
+          "name": "白华雨",
+          "fans": 287
+        },
+        {
+          "mid": 168523349,
+          "name": "寺雨白华",
+          "fans": 93
+        }
+      ]
+    },
+    {
+      "keyword": "时空蒸汽计划",
+      "queryMatchedName": "时空蒸汽计划",
+      "exactNameMatch": true,
+      "mid": 3014435,
+      "name": "时空蒸汽计划",
+      "fans": 139751,
+      "official": "",
+      "sign": "无数宝藏等待你挖掘",
+      "videoTotal": null,
+      "sampled": 0,
+      "titles": [],
+      "animeHitRate": 0,
+      "otherHitRate": 0,
+      "spaceUrl": "https://space.bilibili.com/3014435",
+      "sources": [
+        "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%97%B6%E7%A9%BA%E8%92%B8%E6%B1%BD%E8%AE%A1%E5%88%92",
+        "https://space.bilibili.com/3014435"
+      ],
+      "fetchedAt": "2026-10-14T02:13:52.935Z",
+      "status": "partial",
+      "note": "投稿接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "searchAlternatives": [
+        {
+          "mid": 3493140126239601,
+          "name": "时空蒸汽计划_",
+          "fans": 8
+        }
+      ]
+    },
+    {
+      "keyword": "疯奶说",
+      "status": "not_found"
+    }
+  ]
+}

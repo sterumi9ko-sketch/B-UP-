@@ -1,0 +1,101 @@
+{
+  "keyword": "次元酱",
+  "status": "verified",
+  "note": "",
+  "searchHits": [
+    {
+      "mid": 520629020,
+      "name": "次元酱",
+      "fans": 0,
+      "videoCount": 2,
+      "sign": "欢迎来到你的世界",
+      "official": "",
+      "level": 0,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%AC%A1%E5%85%83%E9%85%B1"
+    },
+    {
+      "mid": 3632306440899136,
+      "name": "次元酱中转站",
+      "fans": 133360,
+      "videoCount": 184,
+      "sign": "怕爱你太狠",
+      "official": "",
+      "level": 5,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%AC%A1%E5%85%83%E9%85%B1"
+    },
+    {
+      "mid": 3546606330710058,
+      "name": "娱乐次元酱",
+      "fans": 2108,
+      "videoCount": 365,
+      "sign": "看遍世间新奇事，就看娱乐次元酱。永远奔走在吃瓜第一线的二次元！\n商务+v:  PXF01688",
+      "official": "",
+      "level": 3,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%AC%A1%E5%85%83%E9%85%B1"
+    },
+    {
+      "mid": 63240632,
+      "name": "次元酱瓜",
+      "fans": 1560,
+      "videoCount": 8,
+      "sign": "不标签，无人设，没观点，只有好奇心",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%AC%A1%E5%85%83%E9%85%B1"
+    },
+    {
+      "mid": 3706940651735945,
+      "name": "芋圆次元酱",
+      "fans": 1549,
+      "videoCount": 454,
+      "sign": "",
+      "official": "",
+      "level": 3,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%AC%A1%E5%85%83%E9%85%B1"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": "520629020",
+    "name": "次元酱",
+    "sign": "欢迎来到你的世界",
+    "official": "",
+    "source": "https://api.bilibili.com/x/web-interface/card?mid=520629020"
+  },
+  "fanCountFromSearch": 0,
+  "videoTotal": 2,
+  "videos": [
+    {
+      "bvid": "BV1rY4y1V7XX",
+      "title": "总有一个是你的心动女孩",
+      "description": "-",
+      "tag": "",
+      "tid": 21,
+      "length": "00:19",
+      "play": 5,
+      "comment": 0,
+      "created": 1654241728,
+      "url": "https://www.bilibili.com/video/BV1rY4y1V7XX"
+    },
+    {
+      "bvid": "BV13g411d7Ei",
+      "title": "艾特你的二次元好兄弟来学穿搭",
+      "description": "-",
+      "tag": "",
+      "tid": 21,
+      "length": "00:08",
+      "play": 7,
+      "comment": 0,
+      "created": 1654158625,
+      "url": "https://www.bilibili.com/video/BV13g411d7Ei"
+    }
+  ],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T15:51:33.354Z",
+  "sources": [
+    "https://space.bilibili.com/520629020",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%AC%A1%E5%85%83%E9%85%B1",
+    "https://api.bilibili.com/x/web-interface/card?mid=520629020",
+    "https://api.bilibili.com/x/space/wbi/arc/search?mid=520629020"
+  ]
+}

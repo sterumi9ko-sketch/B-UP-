@@ -1,0 +1,45 @@
+{
+  "keyword": "中二电视台",
+  "status": "partial",
+  "note": "投稿列表接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+  "searchHits": [
+    {
+      "mid": 65220439,
+      "name": "温州二十二中电视台",
+      "fans": 2404,
+      "videoCount": 116,
+      "sign": "温州市第二十二中学瓯江视野电视台官方频道",
+      "official": "温州二十二中电视台官方账号",
+      "level": 5,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%B8%AD%E4%BA%8C%E7%94%B5%E8%A7%86%E5%8F%B0"
+    },
+    {
+      "mid": 1545103020,
+      "name": "安顺二中校园电_视台",
+      "fans": 247,
+      "videoCount": 27,
+      "sign": "这里是安顺二中校园电视台！每周我们会在这儿分享由我们二中学生自主创作的节目，谢谢你的关注！",
+      "official": "",
+      "level": 3,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%B8%AD%E4%BA%8C%E7%94%B5%E8%A7%86%E5%8F%B0"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": "65220439",
+    "name": "温州二十二中电视台",
+    "sign": "温州市第二十二中学瓯江视野电视台官方频道",
+    "official": "温州二十二中电视台官方账号",
+    "source": "https://api.bilibili.com/x/web-interface/card?mid=65220439"
+  },
+  "fanCountFromSearch": 2404,
+  "videoTotal": null,
+  "videos": [],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T15:48:16.125Z",
+  "sources": [
+    "https://space.bilibili.com/65220439",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E4%B8%AD%E4%BA%8C%E7%94%B5%E8%A7%86%E5%8F%B0",
+    "https://api.bilibili.com/x/web-interface/card?mid=65220439"
+  ]
+}

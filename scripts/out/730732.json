@@ -1,0 +1,197 @@
+{
+  "keyword": "瓶子君152",
+  "status": "verified",
+  "note": "",
+  "searchHits": [
+    {
+      "mid": 730732,
+      "name": "瓶子君152",
+      "fans": 4334034,
+      "videoCount": 365,
+      "sign": "各位点个关注再走呗",
+      "official": "2025百大UP主、2023百大UP主、知名UP主",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%93%B6%E5%AD%90%E5%90%9B152"
+    },
+    {
+      "mid": 393225873,
+      "name": "瓶子君152黑粉录播组",
+      "fans": 137961,
+      "videoCount": 2260,
+      "sign": "瓶子君152的所属黑粉录屏组，以诸葛南北为使命，上传各类直播录屏，争取每一期都有！！想看瓶子录播的铁汁点个关注8!！",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%93%B6%E5%AD%90%E5%90%9B152"
+    },
+    {
+      "mid": 1363984927,
+      "name": "゚瓶子君152",
+      "fans": 820,
+      "videoCount": 33,
+      "sign": "",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%93%B6%E5%AD%90%E5%90%9B152"
+    },
+    {
+      "mid": 574078925,
+      "name": "瓶子君152今天吃嘉心糖",
+      "fans": 137,
+      "videoCount": 44,
+      "sign": "QMD，FEVCYOU",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%93%B6%E5%AD%90%E5%90%9B152"
+    },
+    {
+      "mid": 690704019,
+      "name": "瓶子君152妈妈",
+      "fans": 15,
+      "videoCount": 7,
+      "sign": "一个随缘的二次元视频搬运工，希望二次元的大家越来越开心",
+      "official": "",
+      "level": 3,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%93%B6%E5%AD%90%E5%90%9B152"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": "730732",
+    "name": "瓶子君152",
+    "sign": "各位点个关注再走呗 ",
+    "official": "2025百大UP主、2023百大UP主、知名UP主",
+    "source": "https://api.bilibili.com/x/web-interface/card?mid=730732"
+  },
+  "fanCountFromSearch": 4334034,
+  "videoTotal": 365,
+  "videos": [
+    {
+      "bvid": "BV1mMHk6WEyS",
+      "title": "评分4.7！神人多！神人神！神人又多又神！MewType梦限大完结吐槽！",
+      "description": "点个关注再走哦",
+      "tag": "",
+      "tid": 27,
+      "length": "13:20",
+      "play": 858656,
+      "comment": 3335,
+      "created": 1791109800,
+      "url": "https://www.bilibili.com/video/BV1mMHk6WEyS"
+    },
+    {
+      "bvid": "BV1uhev6BEpe",
+      "title": "评分9.3！长大能有多苦涩？重温野比大雄的人生！咋和童年看着不一样？【瓶子君152】",
+      "description": "点个关注！点个关注！点个关注！点个关注！点个关注！点个关注！",
+      "tag": "",
+      "tid": 172,
+      "length": "14:48",
+      "play": 2893594,
+      "comment": 5294,
+      "created": 1789898400,
+      "url": "https://www.bilibili.com/video/BV1uhev6BEpe"
+    },
+    {
+      "bvid": "BV1Yubj6VEpD",
+      "title": "评分7.1！当太阳升起就把昨天忘记！假面骑士ZZZ完结吐槽！",
+      "description": "点个关注再走哦",
+      "tag": "",
+      "tid": 86,
+      "length": "12:45",
+      "play": 1319089,
+      "comment": 9261,
+      "created": 1788610217,
+      "url": "https://www.bilibili.com/video/BV1Yubj6VEpD"
+    },
+    {
+      "bvid": "BV1a5t264Em6",
+      "title": "笑出猪叫！AI重画动画名场景100次之后？猜得出的才是动漫高手！【动漫猜猜看09】",
+      "description": "动漫猜猜看第⑨期！你能猜出是哪部动画吗？\n喜欢视频的小伙伴别忘记点个关注加三连！",
+      "tag": "",
+      "tid": 253,
+      "length": "48:25",
+      "play": 1065815,
+      "comment": 1921,
+      "created": 1788606000,
+      "url": "https://www.bilibili.com/video/BV1a5t264Em6"
+    },
+    {
+      "bvid": "BV1Cnu16ZEnP",
+      "title": "评分8.7！我们奥特曼有救啦！提欧奥特曼开播吐槽！",
+      "description": "点个关注再走哦",
+      "tag": "",
+      "tid": 86,
+      "length": "11:44",
+      "play": 2448640,
+      "comment": 10907,
+      "created": 1786273200,
+      "url": "https://www.bilibili.com/video/BV1Cnu16ZEnP"
+    },
+    {
+      "bvid": "BV1KYgt6DEcf",
+      "title": "黑长直？进气口？光头？二次元人物的发型有多重要！？【bilibili次元论战】",
+      "description": "本视频为【bilibili次元论战S3】活动稿件，这次和@泛式 （BV1Tdgh6aESA）一起带来“二次元的头发/袜子”话题的表演杂谈。\n你更在意角色的头发还是袜子？即刻前往活动官网投票>>> https://www.bilibili.com/blackboard/era/ACGRoundtableS3.html",
+      "tag": "",
+      "tid": 253,
+      "length": "11:33",
+      "play": 946024,
+      "comment": 4439,
+      "created": 1784864542,
+      "url": "https://www.bilibili.com/video/BV1KYgt6DEcf"
+    },
+    {
+      "bvid": "BV11j7h6CESh",
+      "title": "当四星登顶的时候，我就知道熟悉的危机合约回来了",
+      "description": "点个关注再走",
+      "tag": "",
+      "tid": 172,
+      "length": "08:32",
+      "play": 685092,
+      "comment": 3402,
+      "created": 1782381900,
+      "url": "https://www.bilibili.com/video/BV11j7h6CESh"
+    },
+    {
+      "bvid": "BV1cvJP6eEfY",
+      "title": "2026年动漫高考！二次元浓度大比拼？角逐真正的动漫高手！",
+      "description": "一年一度的动漫高考来了！今年的动画区高考状元竟然是…\n也欢迎小伙伴一起在弹幕作答！喜欢视频别忘记点个三连加关注哦！\n也祝愿各位高考结束的小伙伴都能取得理想的成绩！",
+      "tag": "",
+      "tid": 253,
+      "length": "52:54",
+      "play": 581461,
+      "comment": 1446,
+      "created": 1781437500,
+      "url": "https://www.bilibili.com/video/BV1cvJP6eEfY"
+    },
+    {
+      "bvid": "BV1YWE46jEVk",
+      "title": "这得看不少部！先生！2026年七月新番扫雷推荐！【瓶子君152】",
+      "description": "点个关注再走",
+      "tag": "",
+      "tid": 253,
+      "length": "11:57",
+      "play": 1222660,
+      "comment": 3470,
+      "created": 1780826400,
+      "url": "https://www.bilibili.com/video/BV1YWE46jEVk"
+    },
+    {
+      "bvid": "BV16VLg6MEat",
+      "title": "评分9.1！只要抵达那个地方！假面骑士ZZZ中期吐槽！【瓶子君152】",
+      "description": "点个关注再走哦",
+      "tag": "",
+      "tid": 86,
+      "length": "13:12",
+      "play": 2220220,
+      "comment": 10953,
+      "created": 1778927400,
+      "url": "https://www.bilibili.com/video/BV16VLg6MEat"
+    }
+  ],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T15:43:44.760Z",
+  "sources": [
+    "https://space.bilibili.com/730732",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E7%93%B6%E5%AD%90%E5%90%9B152",
+    "https://api.bilibili.com/x/web-interface/card?mid=730732",
+    "https://api.bilibili.com/x/space/wbi/arc/search?mid=730732"
+  ]
+}

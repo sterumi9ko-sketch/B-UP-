@@ -1,0 +1,75 @@
+{
+  "keyword": "木鱼水心",
+  "status": "partial",
+  "note": "投稿列表接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+  "searchHits": [
+    {
+      "mid": 927587,
+      "name": "木鱼水心",
+      "fans": 14607481,
+      "videoCount": 1338,
+      "sign": "遥望理想，勇敢生存 | 商务合作：bd@ark-tv.com (请备注公司姓名及合作项目）公众号：木鱼水心",
+      "official": "2025百大UP主、2024百大UP主、知名UP主",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%9C%A8%E9%B1%BC%E6%B0%B4%E5%BF%83"
+    },
+    {
+      "mid": 96964459,
+      "name": "木魚水心",
+      "fans": 181,
+      "videoCount": 213,
+      "sign": "做人没梦想跟咸鱼有什么区别。",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%9C%A8%E9%B1%BC%E6%B0%B4%E5%BF%83"
+    },
+    {
+      "mid": 1874333142,
+      "name": "不是木鱼水心是薰啦",
+      "fans": 92,
+      "videoCount": 2,
+      "sign": "KI8Q3-6GWBC-6REE7",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%9C%A8%E9%B1%BC%E6%B0%B4%E5%BF%83"
+    },
+    {
+      "mid": 3745046799059346,
+      "name": "木鱼水心叫南瓜皮的我",
+      "fans": 207,
+      "videoCount": 19,
+      "sign": "dali meher",
+      "official": "",
+      "level": 2,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%9C%A8%E9%B1%BC%E6%B0%B4%E5%BF%83"
+    },
+    {
+      "mid": 386157724,
+      "name": "゚木鱼水心",
+      "fans": 50,
+      "videoCount": 1,
+      "sign": "从何时开始忌讳空山无人，从何时开始怕遥望星尘",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%9C%A8%E9%B1%BC%E6%B0%B4%E5%BF%83"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": "927587",
+    "name": "木鱼水心",
+    "sign": "遥望理想，勇敢生存 | 商务合作：bd@ark-tv.com (请备注公司姓名及合作项目）公众号：木鱼水心",
+    "official": "2025百大UP主、2024百大UP主、知名UP主",
+    "source": "https://api.bilibili.com/x/web-interface/card?mid=927587"
+  },
+  "fanCountFromSearch": 14607481,
+  "videoTotal": null,
+  "videos": [],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T15:47:03.902Z",
+  "sources": [
+    "https://space.bilibili.com/927587",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E6%9C%A8%E9%B1%BC%E6%B0%B4%E5%BF%83",
+    "https://api.bilibili.com/x/web-interface/card?mid=927587"
+  ]
+}

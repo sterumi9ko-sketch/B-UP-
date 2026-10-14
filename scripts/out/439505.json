@@ -1,0 +1,46 @@
+{
+  "keyword": "StellaaQ",
+  "status": "partial",
+  "note": "投稿列表接口 code=-352 风控校验失败",
+  "searchHits": [
+    {
+      "mid": 439505,
+      "name": "StellaaQ",
+      "fans": 200097,
+      "videoCount": 22,
+      "sign": "阳光开朗\n\n合作请联系vx: StellaaQ_connect",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=StellaaQ"
+    },
+    {
+      "mid": 34338425,
+      "name": "StellaaQ的狗",
+      "fans": 50,
+      "videoCount": 1,
+      "sign": "不懂就要问",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=StellaaQ"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": 439505,
+    "name": "StellaaQ",
+    "sign": "阳光开朗\n\n合作请联系vx: StellaaQ_connect\n",
+    "level": 6,
+    "official": "",
+    "source": "https://api.bilibili.com/x/space/wbi/acc/info?mid=439505"
+  },
+  "fanCountFromSearch": 200097,
+  "videoTotal": null,
+  "videos": [],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T16:04:13.397Z",
+  "sources": [
+    "https://space.bilibili.com/439505",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=StellaaQ",
+    "https://api.bilibili.com/x/space/wbi/acc/info?mid=439505"
+  ]
+}

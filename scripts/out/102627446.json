@@ -1,0 +1,76 @@
+{
+  "keyword": "动漫低手",
+  "status": "verified",
+  "note": "",
+  "searchHits": [
+    {
+      "mid": 102627446,
+      "name": "动漫低手",
+      "fans": 23,
+      "videoCount": 0,
+      "sign": "",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E4%BD%8E%E6%89%8B"
+    },
+    {
+      "mid": 8537588,
+      "name": "动漫低手鱼太",
+      "fans": 293,
+      "videoCount": 2,
+      "sign": "真正的纯爱战士是爱的构筑者",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E4%BD%8E%E6%89%8B"
+    },
+    {
+      "mid": 6859317,
+      "name": "动漫低手新姬君",
+      "fans": 204,
+      "videoCount": 28,
+      "sign": "",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E4%BD%8E%E6%89%8B"
+    },
+    {
+      "mid": 513938133,
+      "name": "动漫低手咸鱼",
+      "fans": 2,
+      "videoCount": 0,
+      "sign": "",
+      "official": "",
+      "level": 2,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E4%BD%8E%E6%89%8B"
+    },
+    {
+      "mid": 3546735517370440,
+      "name": "动漫低手2333",
+      "fans": 1,
+      "videoCount": 0,
+      "sign": "",
+      "official": "",
+      "level": 4,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E4%BD%8E%E6%89%8B"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": "102627446",
+    "name": "动漫低手",
+    "sign": "",
+    "official": "",
+    "source": "https://api.bilibili.com/x/web-interface/card?mid=102627446"
+  },
+  "fanCountFromSearch": 23,
+  "videoTotal": 0,
+  "videos": [],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T15:50:11.951Z",
+  "sources": [
+    "https://space.bilibili.com/102627446",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E4%BD%8E%E6%89%8B",
+    "https://api.bilibili.com/x/web-interface/card?mid=102627446",
+    "https://api.bilibili.com/x/space/wbi/arc/search?mid=102627446"
+  ]
+}

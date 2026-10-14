@@ -1,0 +1,34 @@
+# 依赖与包管理器缓存
+node_modules/
+.pnpm-store/
+.pnpm-cache/
+.pnpm-state/
+.npm-cache/
+
+# 构建产物（三套，都由 npm 脚本生成，不入库）
+dist/
+site/
+standalone/
+
+# 临时目录（校准与诊断脚本的运行目录）
+.tmp-calibrate/
+.tmp-diag/
+
+# 截图（由 scripts/screenshot.mjs 生成）
+screenshots/
+
+# 编辑器和系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+npm-debug.log*
+
+# 一次性推送用的部署密钥（含私钥，绝不能提交）
+.ssh-push/
+
+# CI 构建模拟目录（scripts/simulate-ci-build.mjs）
+.ci-sim/

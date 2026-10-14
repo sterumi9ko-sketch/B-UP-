@@ -1,0 +1,35 @@
+{
+  "keyword": "动漫吐槽君",
+  "status": "partial",
+  "note": "投稿列表接口 code=-1 Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+  "searchHits": [
+    {
+      "mid": 2839474,
+      "name": "动漫吐槽君",
+      "fans": 0,
+      "videoCount": 0,
+      "sign": "",
+      "official": "",
+      "level": 1,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E5%90%90%E6%A7%BD%E5%90%9B"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": "2839474",
+    "name": "动漫吐槽君",
+    "sign": "",
+    "official": "",
+    "source": "https://api.bilibili.com/x/web-interface/card?mid=2839474"
+  },
+  "fanCountFromSearch": 0,
+  "videoTotal": null,
+  "videos": [],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T15:55:01.953Z",
+  "sources": [
+    "https://space.bilibili.com/2839474",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E5%8A%A8%E6%BC%AB%E5%90%90%E6%A7%BD%E5%90%9B",
+    "https://api.bilibili.com/x/web-interface/card?mid=2839474"
+  ]
+}

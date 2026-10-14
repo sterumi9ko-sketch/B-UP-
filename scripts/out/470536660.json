@@ -1,0 +1,75 @@
+{
+  "keyword": "老蕾",
+  "status": "partial",
+  "note": "投稿列表接口 code=-352 风控校验失败",
+  "searchHits": [
+    {
+      "mid": 470536660,
+      "name": "老蕾",
+      "fans": 1,
+      "videoCount": 0,
+      "sign": "",
+      "official": "",
+      "level": 2,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E8%80%81%E8%95%BE"
+    },
+    {
+      "mid": 3546956167121086,
+      "name": "一只老蕾",
+      "fans": 245,
+      "videoCount": 11,
+      "sign": "一个拍秘宝的扑通人",
+      "official": "",
+      "level": 3,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E8%80%81%E8%95%BE"
+    },
+    {
+      "mid": 11649834,
+      "name": "老蕾米",
+      "fans": 187,
+      "videoCount": 17,
+      "sign": "别想我了",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E8%80%81%E8%95%BE"
+    },
+    {
+      "mid": 177766514,
+      "name": "老蕾姆厨",
+      "fans": 49,
+      "videoCount": 3,
+      "sign": "",
+      "official": "",
+      "level": 6,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E8%80%81%E8%95%BE"
+    },
+    {
+      "mid": 588619612,
+      "name": "自由部落老蕾",
+      "fans": 17,
+      "videoCount": 12,
+      "sign": "18线小城市80后宝妈，英语基础薄弱。\n正在努力学习家长英语口语，让娃娃慢慢熟悉英语这种声音，为之后的校园学习打基础。",
+      "official": "",
+      "level": 3,
+      "source": "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E8%80%81%E8%95%BE"
+    }
+  ],
+  "space": {
+    "ok": true,
+    "mid": "470536660",
+    "name": "老蕾",
+    "sign": "",
+    "official": "",
+    "source": "https://api.bilibili.com/x/web-interface/card?mid=470536660"
+  },
+  "fanCountFromSearch": 1,
+  "videoTotal": null,
+  "videos": [],
+  "topVideos": [],
+  "fetchedAt": "2026-10-13T15:53:26.378Z",
+  "sources": [
+    "https://space.bilibili.com/470536660",
+    "https://api.bilibili.com/x/web-interface/search/type?search_type=bili_user&keyword=%E8%80%81%E8%95%BE",
+    "https://api.bilibili.com/x/web-interface/card?mid=470536660"
+  ]
+}
