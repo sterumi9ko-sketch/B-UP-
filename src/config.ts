@@ -15,6 +15,27 @@ export const siteConfig = {
   description:
     '回答 40 道关于性格倾向、兴趣偏好与表达习惯的题目，用 8 个创作风格维度，匹配出与你风格最接近的 B 站动画区 UP 主。',
 
+  /** 作者信息与开源地址（关于页展示，也写进页脚） */
+  author: {
+    /** GitHub 用户名 */
+    name: 'sterumi9ko-sketch',
+    /** 作者主页 */
+    profileUrl: 'https://github.com/sterumi9ko-sketch',
+    /** 本项目的仓库地址 */
+    repoUrl: 'https://github.com/sterumi9ko-sketch/B-UP-',
+    /** 参考项目（8 维人格匹配的思路来源） */
+    inspiredBy: {
+      label: 'ShinyColors Personality Quiz',
+      url: 'https://github.com/Sallyn0225/shiny-mbti',
+      site: 'https://283ti.genchi.top/',
+    },
+    /** 设计语言参考 */
+    designReference: {
+      label: 'awesome-design-md（Claude 设计系统）',
+      url: 'https://github.com/VoltAgent/awesome-design-md',
+    },
+  },
+
   /** 测试相关参数 */
   test: {
     /** 每道题的选项分值：完全认同 +3 → 完全不认同 -3 */

@@ -149,6 +149,8 @@ async function main() {
     { file: '08-result-desktop.png', url: `${BASE}/debug.html?pattern=zigzag`, width: 1440, height: 3400, mobile: false },
     { file: '09-result-mobile.png', url: `${BASE}/debug.html?pattern=zigzag`, width: 390, height: 2900, mobile: true },
     { file: '10-result-agree-desktop.png', url: `${BASE}/debug.html?pattern=flat&level=0`, width: 1440, height: 3400, mobile: false },
+    { file: '11-settings-desktop.png', url: `${BASE}/#/settings`, width: 1440, height: 2000, mobile: false },
+    { file: '12-settings-mobile.png', url: `${BASE}/#/settings`, width: 390, height: 1600, mobile: true },
   ];
 
   try {

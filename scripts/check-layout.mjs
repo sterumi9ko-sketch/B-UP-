@@ -139,6 +139,8 @@ const PROBE = `(() => {
     upCards: document.querySelectorAll('.up-card').length,
     podiumCards: document.querySelectorAll('.podium__card').length,
     scaleDots: document.querySelectorAll('.scale__item').length,
+    scoreRows: document.querySelectorAll('.score-row').length,
+    settingsItems: document.querySelectorAll('.settings-list__item').length,
     canvasCount: document.querySelectorAll('canvas').length,
     shareImage: Boolean(document.querySelector('.share-preview img')),
     docScrollWidth: doc.scrollWidth,
@@ -192,6 +194,7 @@ async function main() {
       { name: '答题页', url: `${BASE}/${PAGE}#/test`, expect: { scaleDots: 7 } },
       { name: '图鉴页', url: `${BASE}/${PAGE}#/gallery`, expect: { upCards: 18 } },
       { name: '关于页', url: `${BASE}/${PAGE}#/about`, expect: {} },
+      { name: '设置页', url: `${BASE}/${PAGE}#/settings`, expect: { scoreRows: 8 } },
     ];
 
     if (!skipDebug) {
@@ -215,7 +218,8 @@ async function main() {
       console.log(`=== ${check.name} ===`);
       console.log(`  面包屑：${info.breadcrumb}`);
       console.log(
-        `  元素：nav=${info.navLinks} 卡片=${info.upCards} 前三卡=${info.podiumCards} 圆点=${info.scaleDots} canvas=${info.canvasCount} 分享图=${info.shareImage}`,
+        `  元素：nav=${info.navLinks} 卡片=${info.upCards} 前三卡=${info.podiumCards} 圆点=${info.scaleDots} canvas=${info.canvasCount} 分享图=${info.shareImage}` +
+          (info.scoreRows || info.settingsItems ? ` | 设置页：分数行=${info.scoreRows} 名单项=${info.settingsItems}` : ''),
       );
       console.log(
         `  宽度：innerWidth=${info.innerWidth} scrollWidth=${info.docScrollWidth} clientWidth=${info.docClientWidth} → ${

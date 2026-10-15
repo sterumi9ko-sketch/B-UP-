@@ -9,6 +9,7 @@ import { renderTest } from '@pages/test';
 import { renderResult } from '@pages/result';
 import { renderGallery } from '@pages/gallery';
 import { renderAbout } from '@pages/about';
+import { renderSettings } from '@pages/settings';
 import type { PageRenderer, PageResult } from '@ui/page-types';
 
 /**
@@ -30,6 +31,7 @@ const pages: Record<Exclude<RouteName, 'not-found'>, PageRenderer> = {
   gallery: renderGallery,
   up: renderGallery,
   about: renderAbout,
+  settings: renderSettings,
 };
 
 let currentCleanup: (() => void) | undefined;
@@ -67,6 +69,7 @@ function render(): void {
     gallery: `UP 主图鉴 · ${siteConfig.name}`,
     up: `UP 主资料 · ${siteConfig.name}`,
     about: `关于测试 · ${siteConfig.name}`,
+    settings: `UP 主数据设置 · ${siteConfig.name}`,
     'not-found': `页面不存在 · ${siteConfig.name}`,
   };
   document.title = titles[route.name] ?? siteConfig.name;

@@ -1,15 +1,33 @@
 # 测测你是B站动画区的哪位UP主？
 
+> ## 🌐 线上地址：<https://b-up.pages.dev>
+>
+> 手机直接打开即可作答。部署在 Cloudflare Pages，推送 `main` 分支会自动重新部署。
+
 一个**纯静态**的趣味测试网站：回答 40 道题，用 8 个创作风格维度算出你的风格画像，
 再和 B 站动画区 UP 主的公开创作特征做比较，推荐风格最接近的 3 位。
 
 - 不需要后端服务器，所有计算都在浏览器里完成
 - 答题记录只存在你自己的浏览器（localStorage），不上传任何数据
-- 构建产物就是一堆静态文件，可以直接丢到 Cloudflare Pages
+- 构建产物就是一堆静态文件，可以直接丢到 Cloudflare Pages 或 GitHub Pages
+- 觉得某位 UP 主的评分不准？打开 [UP 主数据设置](#九up-主数据设置不改代码就能调分) 页就能改
+
+**作者：** [@sterumi9ko-sketch](https://github.com/sterumi9ko-sketch)
+**代码仓库：** <https://github.com/sterumi9ko-sketch/B-UP->
 
 > 免责声明：本站是娱乐性质的**创作风格**匹配，不是心理测量学量表。
 > 结果由公开创作内容与你的作答计算得出，**不代表任何 UP 主的真实人格、心理诊断或本人认可**。
 > 本站不是哔哩哔哩官方产品。
+
+### 设计与思路参考
+
+| 来源 | 借鉴了什么 |
+|---|---|
+| [ShinyColors Personality Quiz](https://github.com/Sallyn0225/shiny-mbti)（[线上](https://283ti.genchi.top/)） | 产品形态：8 维人格模型 + 欧氏距离匹配 + 角色图鉴 |
+| [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 视觉设计语言（暖色、克制、留白） |
+
+> 仅参考**思路与设计语言**。本项目是独立实现：原生 TypeScript + 自写 CSS，
+> **没有**引入 React / Tailwind / recharts，也未复制其源码或素材。
 
 ---
 
@@ -23,11 +41,12 @@
 6. [怎么改题目](#六怎么改题目)
 7. [怎么改 UP 主名单](#七怎么改-up-主名单)
 8. [怎么调整 UP 主的维度评分](#八怎么调整-up-主的维度评分)
-9. [怎么加 UP 主头像](#九怎么加-up-主头像)
-10. [怎么测试](#十怎么测试)
-11. [怎么部署到 Cloudflare Pages](#十一怎么部署到-cloudflare-pages)
-12. [分数是怎么算出来的](#十二分数是怎么算出来的)
-13. [已知问题与注意事项](#十三已知问题与注意事项)
+9. [UP 主数据设置（不改代码就能调分）](#九up-主数据设置不改代码就能调分)
+10. [怎么加 UP 主头像](#十怎么加-up-主头像)
+11. [怎么测试](#十一怎么测试)
+12. [怎么部署到 Cloudflare Pages](#十二怎么部署到-cloudflare-pages)
+13. [分数是怎么算出来的](#十三分数是怎么算出来的)
+14. [已知问题与注意事项](#十四已知问题与注意事项)
 
 ---
 
@@ -380,7 +399,67 @@ match: {
 
 ---
 
-## 九、怎么加 UP 主头像
+## 九、UP 主数据设置（不改代码就能调分）
+
+站点内置了一个可视化设置页：`https://b-up.pages.dev/#/settings`（本地是 `/#/settings`）。
+入口也在**页脚**和**图鉴页**上。
+
+### 能做什么
+
+| 功能 | 说明 |
+|---|---|
+| 改任意 UP 主的 8 维分数 | 滑块调整，范围 0–100，旁边标注「基准 96」这样的原值 |
+| 实时预览 | 立即看到该 UP 主在全部中立画像下的排名、分数条与雷达图 |
+| 按昵称 / UID / 分类搜索 | 快速定位名单里的某一位 |
+| 导出 TypeScript 片段 | 一键复制可直接粘回 `src/data/ups/group*.ts` 的代码 |
+| 导出 / 导入 JSON | 备份自己的调整，或导入别人分享的分数表 |
+| 恢复默认 | 单独恢复某位，或全部恢复成源码基准值 |
+
+### 改动保存在哪里
+
+存在浏览器的 localStorage（键名 `anime-up-match:score-overrides`），**只影响本机预览与结果计算**：
+
+- 不会上传到任何服务器
+- 不会改动仓库里的源码文件
+- 清空浏览器数据即消失
+
+> **为什么不能在网页上直接改文件？**
+> 本站是纯静态站点，浏览器没有写项目文件的权限。
+> 这是浏览器的安全模型决定的，不是实现难度问题。
+> 所以采用「本地覆盖 + 一键导出」的组合：先在页面上试出满意的数值，
+> 再导出片段人工粘回源码，重新构建部署即永久生效。
+
+### 让改动永久生效的完整流程
+
+```bash
+# 1. 打开设置页调分（本地或线上都可以）
+npm run dev            # → http://localhost:5173/#/settings
+
+# 2. 点「导出 TypeScript 片段」，复制出来
+
+# 3. 粘贴到 src/data/ups/group*.ts 里对应 UP 主的 scores 字段
+
+# 4. 复核（重要：改数据可能影响相似指数分布）
+npm test                      # 53 条单元测试，含标定回归
+node scripts/calibrate.mjs    # 看距离分布是否需要重新校准 maxDistance
+
+# 5. 构建并部署
+npm run build && git add -A && git commit -m "调整 UP 主评分" && git push
+```
+
+### 相关文件
+
+| 文件 | 作用 |
+|---|---|
+| `src/pages/settings.ts` | 设置页界面 |
+| `src/core/up-overrides.ts` | 覆盖存储、校验、导入导出 |
+| `src/state.ts` | 把覆盖接进匹配流程（`state.roster`） |
+| `src/data/ups/group*.ts` | 基准数据（永不被运行时改写） |
+| `scripts/check-settings.mjs` | 设置页的自动化检查（29 项） |
+
+---
+
+## 十、怎么加 UP 主头像
 
 **完整说明见 `docs/ASSETS.md`**，这里给最短路径：
 
@@ -404,7 +483,7 @@ match: {
 
 ---
 
-## 十、怎么测试
+## 十一、怎么测试
 
 分三层：**单元测试**（纯逻辑）→ **浏览器检查**（真实渲染）→ **交互检查**（真实点击）。
 
@@ -480,15 +559,36 @@ node scripts/check-interactions.mjs --base "file:///E:/PythonLearning/network/st
 - 前三名是否按相似指数降序
 - 整个流程有没有控制台报错
 
-### 4. 截图（可选）
+### 4. 设置页检查（29 项）
+
+```bash
+node scripts/check-settings.mjs --base http://localhost:4173
+```
+
+覆盖：名单渲染、搜索过滤、切换选中、拖动滑块、覆盖写入 localStorage、刷新持久化、
+**改分后结果页第一名真的变化**（证明覆盖接进了匹配算法）、单独恢复、全部恢复、无控制台报错。
+
+### 5. 截图（可选）
 
 ```bash
 node scripts/screenshot.mjs --base http://localhost:4173 --out screenshots
+
+# 线上验收（对已部署的站点做体检）
+node scripts/verify-live.mjs https://b-up.pages.dev/
 ```
 
-会生成桌面端（1440px）与手机端（390px）共 10 张截图，并顺带报告每页的真实视口宽度与是否有横向溢出。
+会生成桌面端（1440px）与手机端（390px）共 12 张截图，并顺带报告每页的真实视口宽度与是否有横向溢出。
 
-### 5. 端到端检查页（手动看结果）
+### 6. 文字溢出专项检查（可选）
+
+```bash
+node scripts/find-overflow2.mjs --base http://localhost:4173 --widths 320,390,1440
+```
+
+逐页遍历所有元素，找出「内容超出容器」「被 line-clamp 截断」的地方。
+排查「文字显示到框外」这类问题时用它最直接。
+
+### 7. 端到端检查页（手动看结果）
 
 ```bash
 # 浏览器打开（只有 dist/ 里有这个页面）：
@@ -527,7 +627,7 @@ node scripts/simulate-ci-build.mjs
 
 ---
 
-## 十一、怎么部署到 Cloudflare Pages
+## 十二、怎么部署到 Cloudflare Pages
 
 > 更详细的图文步骤、常见问题与上线检查清单见 **[docs/DEPLOY.md](docs/DEPLOY.md)**。
 > 下面是精简版。
@@ -570,7 +670,7 @@ npm run build
 
 ---
 
-## 十二、分数是怎么算出来的
+## 十三、分数是怎么算出来的
 
 想自己复核的话，公式都在下面（也能在「关于测试」页面看到同样内容）。
 
@@ -630,7 +730,7 @@ distance   = √( Σ 权重 × (你的分数 − UP主分数)² )
 
 ---
 
-## 十三、已知问题与注意事项
+## 十四、已知问题与注意事项
 
 ### 1. Windows + 中文路径下 `node:path` 会算错（本机实测）
 
@@ -705,7 +805,9 @@ npm run build:strict   # 类型检查 + 构建（类型不过就不构建）
 | `site/` 布局检查（手机 390px） | ✅ 4 个页面全部通过，无横向溢出 |
 | `standalone/` 布局检查（`file://` + 390px） | ✅ 4 个页面全部通过，无横向溢出 |
 | `dist/` 交互检查 | ✅ 35 / 35 通过（完整答题流程 + 结果页 + 刷新恢复 + 无控制台报错） |
+| `dist/` 设置页检查 | ✅ 29 / 29 通过（含「改分后结果页第一名变化」的端到端验证） |
 | `standalone/` 交互检查（`file://`） | ✅ 35 / 35 通过，证实双击即可运行 |
+| 文字溢出专项（320 / 390px，5 个页面） | ✅ 无真实溢出 |
 
 > 验收是在项目路径 `E:\PythonLearning\network` 下完成的。
 > 换路径或换托管方式后，所有检查需重新跑一遍。
@@ -723,7 +825,19 @@ npm run build:strict   # 类型检查 + 构建（类型不过就不构建）
 5. **图片路径依赖 `import.meta.env.BASE_URL`**，导致 esbuild 打 IIFE 单文件时报错
    → 改为纯相对路径（本站 index.html 始终在站点根目录，相对路径在根域名、
    子路径、`file://` 三种情况下都正确），同时去掉了对构建期变量的依赖。
-6. **`tsconfig.json` 缺少 `paths` 别名映射**，导致类型检查完全不可用
+6. **导航栏 LOGO 方块里的文字溢出到框外**（用户反馈的问题）：
+   方块是 `2.25rem` 见方、字号 14px，却放了三个汉字「动画区」，
+   实测文字纵向溢出 18px、横向也超出，视觉上就是"文字跑到框外面"。
+   → 方块改为 `2rem`、字号 13px、行高 1.15，文字改成两个字「UP主」，
+   并加了 `overflow: hidden` 兜底。
+7. **首页大标题 `line-height: 1.12` 轻微裁字**：中文行高过小，实测字形纵向溢出 2px
+   → 行高改为 1.2。
+8. **设置页在 320px 宽度下栅格子元素不收缩**：`min-width: auto` 使分数行的
+   内容比容器宽 2px → 给栅格子元素统一加 `min-width: 0`。
+9. **`npm ci` 在云端可能因 `.npmrc` 写死缓存目录而变慢/失败**：
+   原来把 `cache=.npm-cache` 写进了 `.npmrc`（那是为绕开本机沙箱限制）
+   → 从 `.npmrc` 移除，本机安装改为按需加 `--cache ./.npm-cache`。
+10. **`tsconfig.json` 缺少 `paths` 别名映射**，导致类型检查完全不可用
    （报几十条"找不到模块"）→ 补齐别名后**一次性暴露出 13 处真实类型错误**并全部修好：
    端到端检查页的答案对象没有类型、图鉴页弹层的子元素数组里混入了字符串、
    答题页有两个未使用的导入。
@@ -751,7 +865,12 @@ npm run preview          # 预览 dist/ → http://localhost:4173
 # ---------- 验收（需要先起服务）----------
 npm run check:layout -- --base http://localhost:4173 --width 390
 npm run check:interactions -- --base http://localhost:4173
+node scripts/check-settings.mjs --base http://localhost:4173      # 设置页（29 项）
+node scripts/find-overflow2.mjs --base http://localhost:4173 --widths 320,390,1440
 node scripts/screenshot.mjs --base http://localhost:4173 --out screenshots
+
+# 线上站点体检
+node scripts/verify-live.mjs https://b-up.pages.dev/
 
 # 独立发布包（无 debug.html，要加 --no-debug）
 node scripts/check-layout.mjs --base http://127.0.0.1:4180 --no-debug

@@ -7,7 +7,7 @@
  *   - 分享链接形如 https://你的域名/#/result
  */
 
-export type RouteName = 'home' | 'test' | 'result' | 'gallery' | 'up' | 'about' | 'not-found';
+export type RouteName = 'home' | 'test' | 'result' | 'gallery' | 'up' | 'about' | 'settings' | 'not-found';
 
 export interface Route {
   name: RouteName;
@@ -23,6 +23,7 @@ const ROUTES: Array<{ pattern: RegExp; name: RouteName; keys: string[] }> = [
   { pattern: /^\/gallery\/?$/, name: 'gallery', keys: [] },
   { pattern: /^\/up\/([^/]+)\/?$/, name: 'up', keys: ['uid'] },
   { pattern: /^\/about\/?$/, name: 'about', keys: [] },
+  { pattern: /^\/settings\/?$/, name: 'settings', keys: [] },
 ];
 
 export function parseHash(hash: string): Route {
@@ -74,6 +75,8 @@ export function routeHref(name: Exclude<RouteName, 'not-found'>, params?: Record
       return '#/gallery';
     case 'about':
       return '#/about';
+    case 'settings':
+      return '#/settings';
     case 'up':
       return `#/up/${params?.uid ?? ''}`;
     default:

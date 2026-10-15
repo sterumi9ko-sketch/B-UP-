@@ -3,7 +3,7 @@ import { DIMENSIONS } from '@core/dimensions';
 import { spaceUrl } from '@core/assets';
 import { createAvatar } from '@ui/components/avatar';
 import { create, openModal, toast } from '@ui/dom';
-import { navigate } from '@ui/router';
+import { navigate, routeHref } from '@ui/router';
 import type { UpCategory, UpProfile } from '@core/types';
 import type { PageRenderer } from '@ui/page-types';
 
@@ -76,6 +76,17 @@ export const renderGallery: PageRenderer = ({ route }) => {
         class: 'text-soft',
         text: '下面是本站参与匹配的 UP 主。资料全部来自公开创作内容（投稿标题、简介、标签与空间公开信息），不含任何私人信息；每个档案都标注了资料来源与核实状态。',
       }),
+      create('p', { class: 'gallery__actions' }, [
+        create('a', {
+          class: 'btn btn--secondary btn--sm',
+          href: routeHref('settings'),
+          text: '调整 UP 主分数',
+        }),
+        create('span', {
+          class: 'text-muted',
+          text: ' 如果觉得某位 UP 主的维度评分不准，可以在这里改（改动保存在你的浏览器里）。',
+        }),
+      ]),
     ]),
     create('div', { class: 'filters' }, [searchInput, chipRow]),
     resultCount,

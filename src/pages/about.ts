@@ -150,8 +150,88 @@ export const renderAbout: PageRenderer = () => {
     ]),
   );
 
+  /* ------------------------------------------------------------------ */
+  /* 九、关于本站（作者与源码）                                          */
+  /* ------------------------------------------------------------------ */
+  const author = siteConfig.author;
+
+  container.append(
+    aboutSection('九、关于本站与源码', [
+      create('p', {
+        class: 'text-soft',
+        text: '本站是一个开源的非商业项目，完整源码公开在 GitHub，欢迎查看、提 issue 或自行部署一份。',
+      }),
+      create('div', { class: 'link-cards' }, [
+        linkCard({
+          title: 'GitHub 仓库',
+          desc: `${author.name}/B-UP- · 完整源码、文档与数据文件`,
+          href: author.repoUrl,
+          label: '打开仓库 ↗',
+        }),
+        linkCard({
+          title: `作者主页 @${author.name}`,
+          desc: 'GitHub 个人主页',
+          href: author.profileUrl,
+          label: '访问主页 ↗',
+        }),
+      ]),
+      create('h3', { style: 'margin-top: var(--space-5); font-size: var(--text-base);', text: '设计与思路参考' }),
+      create('ul', {}, [
+        create('li', {}, [
+          create('span', { text: '匹配机制与产品形态参考：' }),
+          create('a', {
+            href: author.inspiredBy.url,
+            target: '_blank',
+            rel: 'noopener noreferrer',
+            text: author.inspiredBy.label,
+          }),
+          create('span', { class: 'text-muted', text: '（8 维人格模型 + 欧氏距离匹配）' }),
+          create('span', { class: 'text-muted', text: ' · 线上站点 ' }),
+          create('a', {
+            href: author.inspiredBy.site,
+            target: '_blank',
+            rel: 'noopener noreferrer',
+            text: author.inspiredBy.site.replace(/^https?:\/\//, ''),
+          }),
+        ]),
+        create('li', {}, [
+          create('span', { text: '视觉设计语言参考：' }),
+          create('a', {
+            href: author.designReference.url,
+            target: '_blank',
+            rel: 'noopener noreferrer',
+            text: author.designReference.label,
+          }),
+        ]),
+      ]),
+      create('p', {
+        class: 'text-muted',
+        style: 'margin-top: var(--space-4);',
+        text:
+          '说明：本项目仅参考上述项目的「思路与设计语言」，代码为独立实现（原生 TypeScript + 自写 CSS，无 React/Tailwind 依赖），未复制其源码或素材。',
+      }),
+    ]),
+  );
+
   return { element: container };
 };
+
+/** 一个「标题 + 说明 + 按钮」的链接卡片，用于展示仓库与作者主页 */
+function linkCard(options: { title: string; desc: string; href: string; label: string }): HTMLElement {
+  return create('div', { class: 'link-card' }, [
+    create('div', { class: 'link-card__body' }, [
+      create('p', { class: 'link-card__title', text: options.title }),
+      create('p', { class: 'link-card__desc', text: options.desc }),
+    ]),
+    create('a', {
+      class: 'btn btn--secondary btn--sm',
+      href: options.href,
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      text: options.label,
+    }),
+  ]);
+}
 
 function aboutSection(title: string, children: HTMLElement[]): HTMLElement {
   return create('section', { class: 'about-section' }, [create('h2', { class: 'section__title', text: title }), ...children]);

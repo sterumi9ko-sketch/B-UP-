@@ -39,7 +39,8 @@ export function createLayout(root: HTMLElement): Layout {
     create('div', { class: 'container' }, [
       create('div', { class: 'site-header__inner' }, [
         create('a', { class: 'brand', href: '#/' }, [
-          create('span', { class: 'brand__mark', text: '动画区', 'aria-hidden': 'true' }),
+          // LOGO 方块里只放两个字：三个汉字会撑破方块（见 .brand__mark 的尺寸约束）
+          create('span', { class: 'brand__mark', text: 'UP主', 'aria-hidden': 'true' }),
           create('span', { class: 'brand__text' }, [
             create('span', { class: 'brand__name', text: '测测你是哪位动画区UP主' }),
             create('span', { class: 'brand__sub', text: '8 个创作风格维度 · 40 道题' }),
@@ -56,6 +57,27 @@ export function createLayout(root: HTMLElement): Layout {
     create('div', { class: 'container reading' }, [
       create('p', { text: siteConfig.disclaimer }),
       create('p', { class: 'text-muted', text: '本站数据来自公开创作内容，不含任何 UP 主的私人信息；用户答题数据仅保存在你自己的浏览器中。' }),
+      create('p', { class: 'site-footer__links' }, [
+        create('a', {
+          href: routeHref('settings'),
+          text: 'UP 主数据设置',
+          title: '调整各 UP 主的 8 维分数（保存在本机浏览器）',
+        }),
+        create('span', { class: 'site-footer__sep', text: '·' }),
+        create('a', {
+          href: siteConfig.author.repoUrl,
+          target: '_blank',
+          rel: 'noopener noreferrer',
+          text: `GitHub 仓库：${siteConfig.author.name}/B-UP-`,
+        }),
+        create('span', { class: 'site-footer__sep', text: '·' }),
+        create('a', {
+          href: siteConfig.author.profileUrl,
+          target: '_blank',
+          rel: 'noopener noreferrer',
+          text: `作者主页 @${siteConfig.author.name}`,
+        }),
+      ]),
     ]),
   ]);
 

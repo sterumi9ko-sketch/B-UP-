@@ -275,13 +275,20 @@ li {
 .brand__mark {
   display: grid;
   place-items: center;
-  width: 2.25rem;
-  height: 2.25rem;
+  /* 尺寸按「能装下两个汉字」来定：2rem 高 + 13px 字号，两字刚好居中不溢出。
+     原来放了三个字（动画区）配 14px，文字会顶出方块外面。 */
+  width: 2rem;
+  height: 2rem;
   border-radius: var(--radius-md);
   background: linear-gradient(140deg, var(--color-accent), #d98a5f);
   color: #fff;
-  font-size: var(--text-sm);
+  font-size: 0.8125rem; /* 13px */
   font-weight: 700;
+  /* 1 会让中文字形的上下缘贴住方块边界，留一点余量更稳 */
+  line-height: 1.15;
+  letter-spacing: 0;
+  text-align: center;
+  overflow: hidden;
   box-shadow: var(--shadow-sm);
   flex: none;
 }
@@ -413,6 +420,18 @@ li {
 
 .site-footer p {
   margin-bottom: var(--space-2);
+}
+
+.site-footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.site-footer__sep {
+  color: var(--color-border-strong);
 }
 
 /* ==========================================================================
@@ -610,7 +629,8 @@ li {
 
 .hero__title {
   font-size: clamp(2rem, 5.2vw, var(--text-4xl));
-  line-height: 1.12;
+  /* 1.2 而不是 1.12：中文字形上下缘较高，行高过小会轻微裁到字（实测溢出 2px） */
+  line-height: 1.2;
   margin-bottom: var(--space-4);
   letter-spacing: -0.02em;
 }
@@ -1708,6 +1728,395 @@ li {
   background: #fdf5e6;
   border-color: #eeddb8;
   color: #6d5320;
+}
+
+/* ==========================================================================
+   链接卡片（关于页：仓库 / 作者主页）
+   ========================================================================== */
+
+.link-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: var(--space-4);
+  margin: var(--space-4) 0;
+}
+
+.link-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xs);
+}
+
+.link-card__body {
+  min-width: 0;
+}
+
+.link-card__title {
+  margin: 0 0 var(--space-1);
+  font-weight: 650;
+  /* 长用户名不换行时允许断词，避免撑出卡片 */
+  overflow-wrap: anywhere;
+}
+
+.link-card__desc {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  overflow-wrap: anywhere;
+}
+
+.link-card .btn {
+  align-self: flex-start;
+}
+
+/* ==========================================================================
+   UP 主数据设置页
+   ========================================================================== */
+
+.settings-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.settings-header__intro {
+  flex: 1 1 20rem;
+  min-width: 0;
+}
+
+.settings-header h1 {
+  margin-bottom: var(--space-2);
+}
+
+.settings-status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.settings-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.settings-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 17rem) minmax(0, 1fr);
+  gap: var(--space-5);
+  align-items: start;
+}
+
+/* ---- 左侧名单 ---- */
+.settings-side {
+  position: sticky;
+  top: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+.settings-side__search {
+  min-width: 0;
+}
+
+.settings-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  max-height: 32rem;
+  overflow-y: auto;
+  padding-right: var(--space-1);
+}
+
+.settings-list__item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.settings-list__item:hover {
+  border-color: var(--color-accent);
+}
+
+.settings-list__item.is-active {
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft, #fbf1ea);
+}
+
+.settings-list__avatar {
+  flex: none;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.settings-list__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.settings-list__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.settings-list__name {
+  font-weight: 600;
+  font-size: var(--text-sm);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.settings-list__sub {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.settings-list__badge {
+  flex: none;
+  font-size: var(--text-xs);
+}
+
+/* ---- 右侧编辑器 ---- */
+.settings-editor {
+  min-width: 0;
+}
+
+.settings-editor > * {
+  min-width: 0;
+}
+
+.score-rows {
+  min-width: 0;
+}
+
+.settings-editor__head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  align-items: flex-start;
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.settings-editor__avatar {
+  flex: none;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.settings-editor__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.settings-editor__info {
+  flex: 1 1 16rem;
+  min-width: 0;
+}
+
+.settings-editor__info h2 {
+  margin-bottom: var(--space-1);
+  overflow-wrap: anywhere;
+}
+
+.settings-editor__info p {
+  margin-bottom: var(--space-1);
+  overflow-wrap: anywhere;
+}
+
+.settings-editor__changed {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+/* ---- 分数滑块 ---- */
+.score-rows {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.score-row {
+  display: grid;
+  grid-template-columns: minmax(0, 9rem) minmax(0, 1fr) 2.5rem;
+  align-items: center;
+  gap: var(--space-3);
+  /* 栅格子元素默认 min-width:auto，不肯收缩，窄屏下会把容器撑宽 2px */
+  min-width: 0;
+}
+
+.score-row > * {
+  min-width: 0;
+}
+
+.score-row__label {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.score-row__name {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.score-row__base {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  overflow-wrap: anywhere;
+}
+
+.score-row__range {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  accent-color: var(--color-accent);
+}
+
+.score-row__value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: var(--text-sm);
+}
+
+/* ---- 预览 ---- */
+.settings-preview {
+  margin-top: var(--space-5);
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.settings-preview h3 {
+  margin-bottom: var(--space-2);
+}
+
+.settings-preview__rank {
+  font-weight: 600;
+  margin-bottom: var(--space-3);
+  overflow-wrap: anywhere;
+}
+
+.settings-preview__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  align-items: flex-start;
+}
+
+.settings-preview__body canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---- 导出的代码块 ---- */
+.settings-code {
+  max-height: 22rem;
+  overflow: auto;
+  margin: var(--space-3) 0;
+  padding: var(--space-3);
+  background: #f6f3ee;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: var(--text-xs);
+  line-height: 1.6;
+  white-space: pre;
+  tab-size: 2;
+}
+
+/* ---- 图鉴页的设置入口 ---- */
+.gallery__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+/* ---- 窄屏：设置页改为上下布局 ---- */
+@media (max-width: 900px) {
+  .settings-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .settings-side {
+    position: static;
+  }
+
+  .settings-list {
+    max-height: 18rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .settings-actions .btn {
+    flex: 1 1 auto;
+  }
+
+  .score-row {
+    grid-template-columns: minmax(0, 1fr) 2.5rem;
+    grid-template-areas:
+      'label value'
+      'range range';
+    row-gap: var(--space-2);
+  }
+
+  .score-row__label {
+    grid-area: label;
+  }
+
+  .score-row__value {
+    grid-area: value;
+  }
+
+  .score-row__range {
+    grid-area: range;
+  }
 }
 
 /* ==========================================================================
