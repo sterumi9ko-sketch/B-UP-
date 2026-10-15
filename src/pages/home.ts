@@ -1,7 +1,6 @@
 import { siteConfig } from '@config';
 import { DIMENSIONS } from '@core/dimensions';
 import { QUESTION_COUNT } from '@data/questions';
-import { UPS } from '@data/ups';
 import { state } from '@state';
 import { create } from '@ui/dom';
 import { routeHref } from '@ui/router';
@@ -21,7 +20,7 @@ import type { PageRenderer } from '@ui/page-types';
 export const renderHome: PageRenderer = () => {
   const answered = state.answeredCount;
   const hasProgress = answered > 0 && !state.isComplete;
-  const matchableCount = UPS.filter((up) => up.matchable).length;
+  const matchableCount = state.roster.filter((up) => up.matchable).length;
 
   const container = create('div', { class: 'container' });
 

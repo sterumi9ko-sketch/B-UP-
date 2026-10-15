@@ -1,9 +1,9 @@
-import { UPS } from '@data/ups';
 import { DIMENSIONS } from '@core/dimensions';
 import { spaceUrl } from '@core/assets';
 import { createAvatar } from '@ui/components/avatar';
 import { create, openModal, toast } from '@ui/dom';
 import { navigate, routeHref } from '@ui/router';
+import { state } from '@state';
 import type { UpCategory, UpProfile } from '@core/types';
 import type { PageRenderer } from '@ui/page-types';
 
@@ -25,10 +25,12 @@ export const renderGallery: PageRenderer = ({ route }) => {
     keyword: '',
   };
 
-  const categories = Array.from(new Set(UPS.map((up) => up.category)));
+  // 图鉴展示的是「当前生效名单」（基准数据 + 用户在设置页新增/移除的结果）
+  const roster = state.roster;
+  const categories = Array.from(new Set(roster.map((up) => up.category)));
 
   const chipRow = create('div', { class: 'chip-row', role: 'group', 'aria-label': '按内容分类筛选' });
-  const allChip = create('button', { class: 'chip', type: 'button', text: `全部（${UPS.length}）`, 'aria-pressed': 'true' });
+  const allChip = create('button', { class: 'chip', type: 'button', text: `全部（${roster.length}）`, 'aria-pressed': 'true' });
   allChip.addEventListener('click', () => {
     state_.category = 'all';
     syncChips();
@@ -37,7 +39,7 @@ export const renderGallery: PageRenderer = ({ route }) => {
   chipRow.append(allChip);
 
   const chips = categories.map((category) => {
-    const count = UPS.filter((up) => up.category === category).length;
+    const count = roster.filter((up) => up.category === category).length;
     const chip = create('button', { class: 'chip', type: 'button', text: `${category}（${count}）`, 'aria-pressed': 'false' });
     chip.addEventListener('click', () => {
       state_.category = category;
@@ -94,7 +96,7 @@ export const renderGallery: PageRenderer = ({ route }) => {
   );
 
   function filtered(): UpProfile[] {
-    return UPS.filter((up) => {
+    return state.roster.filter((up) => {
       if (state_.category !== 'all' && up.category !== state_.category) return false;
       if (!state_.keyword) return true;
       const haystack = [up.name, up.summary, up.contentFocus, ...up.tags, String(up.uid)].join(' ').toLowerCase();
@@ -239,7 +241,7 @@ export const renderGallery: PageRenderer = ({ route }) => {
   // 直接访问 #/up/<uid> 时自动打开详情
   const uidParam = route.params.uid;
   if (uidParam) {
-    const up = UPS.find((item) => String(item.uid) === uidParam);
+    const up = state.roster.find((item) => String(item.uid) === uidParam);
     if (up) {
       window.setTimeout(() => openDetail(up), 60);
     } else {

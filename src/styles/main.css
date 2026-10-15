@@ -2078,6 +2078,166 @@ li {
   margin-top: var(--space-3);
 }
 
+/* ---- 已移除的名单（可点回） ---- */
+.settings-list__removed {
+  margin-top: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 1px dashed var(--color-border-strong);
+}
+
+.settings-list__removed-title {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2);
+}
+
+.settings-list__restore {
+  display: block;
+  width: 100%;
+  margin-bottom: var(--space-1);
+  padding: var(--space-1) var(--space-3);
+  background: transparent;
+  border: 1px dashed var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-muted);
+  font: inherit;
+  font-size: var(--text-xs);
+  text-align: left;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.settings-list__restore:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.settings-editor__custom {
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.settings-empty {
+  padding: var(--space-6);
+  text-align: center;
+  color: var(--color-text-muted);
+  background: var(--color-surface);
+  border: 1px dashed var(--color-border-strong);
+  border-radius: var(--radius-lg);
+}
+
+/* 危险操作按钮 */
+.btn--danger {
+  background: #fff;
+  border: 1px solid #e2b8ac;
+  color: #a8492c;
+}
+
+.btn--danger:hover {
+  background: #fdf1ec;
+  border-color: #cf8f7c;
+}
+
+/* ==========================================================================
+   新增 UP 主表单
+   ========================================================================== */
+
+.up-form-panel {
+  max-width: 46rem;
+}
+
+.up-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin: var(--space-4) 0;
+  min-width: 0;
+}
+
+.up-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.up-form__label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.up-form__required {
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: #fbe6dd;
+  color: #a8492c;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.up-form__group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.up-form__legend {
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+/* 8 个分数的网格：窄屏一列，宽屏自动多列 */
+.up-form__scores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: var(--space-3);
+  min-width: 0;
+}
+
+.up-form__errors:not(:empty) {
+  padding: var(--space-3);
+  background: #fdf1ec;
+  border: 1px solid #e2b8ac;
+  border-radius: var(--radius-md);
+}
+
+.up-form__error {
+  margin: 0 0 var(--space-1);
+  color: #a8492c;
+  font-size: var(--text-sm);
+}
+
+/* 通用输入控件 */
+.input {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: var(--space-2) var(--space-3);
+  font: inherit;
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+}
+
+.input:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 1px;
+}
+
+.input--number {
+  font-variant-numeric: tabular-nums;
+}
+
 /* ---- 窄屏：设置页改为上下布局 ---- */
 @media (max-width: 900px) {
   .settings-layout {

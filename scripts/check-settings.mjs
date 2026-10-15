@@ -204,7 +204,7 @@ async function main() {
     check(canvasCount === 1, '预览雷达图已渲染', `实际 ${canvasCount}`);
 
     const badgeText = await session.eval(`document.querySelector('.settings-status .tag')?.textContent || ''`);
-    check(badgeText.includes('基准值'), '初始状态显示使用基准值', badgeText);
+    check(/基准/.test(badgeText), '初始状态显示使用基准数据', badgeText);
 
     /* ---------- 2. 搜索 ---------- */
     console.log('\n=== 2. 搜索过滤 ===');
@@ -427,8 +427,268 @@ async function main() {
     const cleared = await session.eval(`window.localStorage.getItem('anime-up-match:score-overrides')`);
     check(!cleared || cleared === '{}', '全部恢复后覆盖被清空', cleared ?? 'null');
 
-    /* ---------- 8. 无控制台报错 ---------- */
-    console.log('\n=== 8. 控制台 ===');
+    /* ---------- 8. 新增 UP 主（必填校验 + 成功添加） ---------- */
+    console.log('\n=== 8. 新增 UP 主 ===');
+    await session.loadFresh('#/settings');
+    await sleep(700);
+
+    // 打开新增对话框
+    const dialogOpened = await session.eval(`(() => {
+      const btn = Array.from(document.querySelectorAll('.settings-actions .btn'))
+        .find((b) => /新增 UP 主/.test(b.textContent || ''));
+      if (!btn) return 'missing';
+      btn.click();
+      return 'clicked';
+    })()`);
+    check(dialogOpened === 'clicked', '「＋ 新增 UP 主」能打开对话框', dialogOpened);
+    await sleep(700);
+
+    const formFields = await session.eval(`(() => {
+      return {
+        panel: document.querySelectorAll('.up-form-panel').length,
+        inputs: document.querySelectorAll('.up-form .input').length,
+        requiredMarks: document.querySelectorAll('.up-form__required').length,
+        select: document.querySelectorAll('.up-form select').length,
+      };
+    })()`);
+    check(formFields.panel === 1, '对话框已出现', `panel=${formFields.panel}`);
+    // 4 个业务必填项（昵称 / UID / 分类 / 一句话风格）+ 8 个维度分数 = 12 个「必填」标记
+    check(formFields.requiredMarks === 12, '每个必填项都有标记', `${formFields.requiredMarks} 个`);
+    check(formFields.select === 1, '分类是下拉选择', `${formFields.select} 个`);
+    check(formFields.inputs >= 12, '表单含 8 个分数输入 + 文本字段', `${formFields.inputs} 个输入框`);
+
+    // 空表单提交 → 必须被拦住并报错
+    const emptySubmit = await session.eval(`(() => {
+      const submit = Array.from(document.querySelectorAll('.up-form-panel .btn')).find((b) => b.textContent.trim() === '添加');
+      if (!submit) return 'missing';
+      submit.click();
+      return 'clicked';
+    })()`);
+    check(emptySubmit === 'clicked', '点击「添加」（空表单）', emptySubmit);
+    await sleep(700);
+
+    const emptyErrors = await session.eval(`(() => {
+      const list = Array.from(document.querySelectorAll('.up-form__error')).map((p) => p.textContent);
+      const custom = JSON.parse(window.localStorage.getItem('anime-up-match:custom-ups') || '[]');
+      return { errors: list, customCount: custom.length };
+    })()`);
+    check(emptyErrors.errors.length >= 4, '空表单提交被拦住并逐项报错', `${emptyErrors.errors.length} 条错误`);
+    check(emptyErrors.customCount === 0, '空表单没有写入任何数据', `custom=${emptyErrors.customCount}`);
+    check(
+      emptyErrors.errors.some((e) => /昵称/.test(e)) &&
+        emptyErrors.errors.some((e) => /UID/.test(e)) &&
+        emptyErrors.errors.some((e) => /分类/.test(e)),
+      '错误信息点名了具体缺失字段',
+      emptyErrors.errors.slice(0, 3).join(' / '),
+    );
+
+    // 只填一半（填昵称与 UID，不填分类与风格）→ 仍应被拦住
+    const halfResult = await session.eval(`(() => {
+      const inputs = document.querySelectorAll('.up-form .input');
+      // 前两个文本输入是昵称与 UID
+      const name = inputs[0];
+      const uid = inputs[1];
+      name.value = '测试UP主';
+      name.dispatchEvent(new Event('input', { bubbles: true }));
+      uid.value = '999888777';
+      uid.dispatchEvent(new Event('input', { bubbles: true }));
+      const submit = Array.from(document.querySelectorAll('.up-form-panel .btn')).find((b) => b.textContent.trim() === '添加');
+      submit.click();
+      return true;
+    })()`);
+    check(halfResult === true, '填写昵称与 UID 后再提交', String(halfResult));
+    await sleep(700);
+
+    const halfErrors = await session.eval(`(() => {
+      const list = Array.from(document.querySelectorAll('.up-form__error')).map((p) => p.textContent);
+      const custom = JSON.parse(window.localStorage.getItem('anime-up-match:custom-ups') || '[]');
+      return { errors: list, customCount: custom.length };
+    })()`);
+    check(halfErrors.customCount === 0, '数据不全时依然拒绝添加', `custom=${halfErrors.customCount}`);
+    check(
+      halfErrors.errors.some((e) => /分类/.test(e)) && halfErrors.errors.some((e) => /风格/.test(e)),
+      '仍然提示缺少分类与一句话风格',
+      halfErrors.errors.join(' / '),
+    );
+
+    // 重复 UID → 应被拦住
+    const dupResult = await session.eval(`(() => {
+      const uid = document.querySelectorAll('.up-form .input')[1];
+      uid.value = '63231'; // 泛式的 UID，已存在
+      uid.dispatchEvent(new Event('input', { bubbles: true }));
+      const submit = Array.from(document.querySelectorAll('.up-form-panel .btn')).find((b) => b.textContent.trim() === '添加');
+      submit.click();
+      return true;
+    })()`);
+    check(dupResult === true, '填写一个已存在的 UID 并提交', String(dupResult));
+    await sleep(700);
+    const dupErrors = await session.eval(`Array.from(document.querySelectorAll('.up-form__error')).map((p) => p.textContent)`);
+    check(
+      dupErrors.some((e) => /已经在名单里/.test(e)),
+      '重复 UID 被识别并拒绝',
+      dupErrors.find((e) => /已经在名单里/.test(e)) ?? dupErrors.join(' / '),
+    );
+
+    // 填齐所有必填项 → 应该成功添加
+    // 用 aria-label 精确定位输入框，不靠顺序索引（顺序一变测试就假失败）
+    const filled = await session.eval(`(() => {
+      const byLabel = (label) =>
+        Array.from(document.querySelectorAll('.up-form .input')).find((el) => el.getAttribute('aria-label') === label);
+
+      const name = byLabel('昵称');
+      name.value = '测试UP主';
+      name.dispatchEvent(new Event('input', { bubbles: true }));
+
+      const uid = byLabel('B 站 UID');
+      uid.value = '999888777';
+      uid.dispatchEvent(new Event('input', { bubbles: true }));
+
+      const select = document.querySelector('.up-form select');
+      select.value = select.options[1].value;
+      select.dispatchEvent(new Event('change', { bubbles: true }));
+
+      const summary = byLabel('一句话风格');
+      summary.value = '用于自动化测试的虚构档案';
+      summary.dispatchEvent(new Event('input', { bubbles: true }));
+
+      const numbers = document.querySelectorAll('.up-form .input--number');
+      const values = [80, 20, 60, 70, 50, 40, 90, 30];
+      numbers.forEach((input, i) => {
+        input.value = String(values[i]);
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+      });
+
+      const submit = Array.from(document.querySelectorAll('.up-form-panel .btn')).find((b) => b.textContent.trim() === '添加');
+      submit.click();
+      return numbers.length;
+    })()`);
+    check(filled === 8, '填齐必填项（含 8 个分数）', `${filled} 个分数输入`);
+    await sleep(1000);
+
+    // 调试：看看提交后表单里还剩什么错误
+    const debugAfterFill = await session.eval(`(() => {
+      return {
+        errors: Array.from(document.querySelectorAll('.up-form__error')).map((p) => p.textContent),
+        panelOpen: document.querySelectorAll('.up-form-panel').length,
+        toast: document.querySelector('.toast')?.textContent || '',
+      };
+    })()`);
+    console.log(`    [调试] 提交后错误：${JSON.stringify(debugAfterFill.errors)}`);
+    console.log(`    [调试] 面板还在=${debugAfterFill.panelOpen} toast=${JSON.stringify(debugAfterFill.toast)}`);
+
+    const afterAdd = await session.eval(`(() => {
+      const custom = JSON.parse(window.localStorage.getItem('anime-up-match:custom-ups') || '[]');
+      return {
+        count: custom.length,
+        name: custom[0]?.name ?? '',
+        uid: custom[0]?.uid ?? 0,
+        scores: custom[0]?.scores ?? {},
+        verification: custom[0]?.verification ?? '',
+        panelStillOpen: document.querySelectorAll('.up-form-panel').length,
+        listCount: document.querySelectorAll('.settings-list__item').length,
+        editorName: document.querySelector('.settings-editor__info h2')?.textContent || '',
+        hasNewBadge: document.querySelectorAll('.settings-list__badge').length,
+      };
+    })()`);
+    check(afterAdd.count === 1, '新增成功并写入 localStorage', `${afterAdd.count} 条`);
+    check(afterAdd.name === '测试UP主' && afterAdd.uid === 999888777, '数据正确保存', `${afterAdd.name} / ${afterAdd.uid}`);
+    check(afterAdd.scores.humor === 80 && afterAdd.scores.aesthetic === 30, '8 维分数按填写保存', `幽默 ${afterAdd.scores.humor}，审美 ${afterAdd.scores.aesthetic}`);
+    check(afterAdd.verification === 'unverified', '新增档案标记为未核实', afterAdd.verification);
+    check(afterAdd.panelStillOpen === 0, '添加后对话框自动关闭', `panel=${afterAdd.panelStillOpen}`);
+    check(afterAdd.listCount === 19, '名单从 18 位增加到 19 位', `${afterAdd.listCount} 项`);
+    check(afterAdd.editorName === '测试UP主', '编辑器自动切到新增的 UP 主', afterAdd.editorName);
+
+    // 新增的 UP 主应出现在图鉴页
+    await session.loadFresh('#/gallery');
+    await sleep(1500);
+    const inGallery = await session.eval(`(() => {
+      const cards = Array.from(document.querySelectorAll('.up-card'));
+      return {
+        total: cards.length,
+        hasIt: cards.some((c) => /测试UP主/.test(c.textContent || '')),
+      };
+    })()`);
+    check(inGallery.hasIt, '新增的 UP 主出现在图鉴页', `图鉴共 ${inGallery.total} 张卡片`);
+
+    /* ---------- 9. 移除与恢复 ---------- */
+    console.log('\n=== 9. 移除与恢复 ===');
+    await session.loadFresh('#/settings');
+    await sleep(800);
+
+    // 移除一位现有 UP 主
+    const removeExisting = await session.eval(`(() => {
+      const btn = Array.from(document.querySelectorAll('.settings-editor .btn'))
+        .find((b) => /从名单中移除/.test(b.textContent || ''));
+      if (!btn) return 'missing';
+      window.confirm = () => true;
+      const name = document.querySelector('.settings-editor__info h2')?.textContent || '';
+      btn.click();
+      return name;
+    })()`);
+    check(removeExisting !== 'missing', `移除了「${removeExisting}」`, removeExisting);
+    await sleep(900);
+
+    const afterRemove = await session.eval(`(() => {
+      const hidden = JSON.parse(window.localStorage.getItem('anime-up-match:hidden-ups') || '[]');
+      return {
+        hidden,
+        listCount: document.querySelectorAll('.settings-list__item').length,
+        hasRemovedSection: document.querySelectorAll('.settings-list__removed').length,
+        restoreButtons: document.querySelectorAll('.settings-list__restore').length,
+      };
+    })()`);
+    check(afterRemove.hidden.length === 1, '移除记录已保存', JSON.stringify(afterRemove.hidden));
+    check(afterRemove.listCount === 18, '名单从 19 位减少到 18 位', `${afterRemove.listCount} 项`);
+    check(afterRemove.hasRemovedSection === 1, '列出了「已移除」区块', `区块 ${afterRemove.hasRemovedSection} 个`);
+    check(afterRemove.restoreButtons === 1, '提供放回按钮', `${afterRemove.restoreButtons} 个`);
+
+    // 放回
+    const restoreClicked = await session.eval(`(() => {
+      const btn = document.querySelector('.settings-list__restore');
+      if (!btn) return 'missing';
+      btn.click();
+      return 'clicked';
+    })()`);
+    check(restoreClicked === 'clicked', '点击放回按钮', restoreClicked);
+    await sleep(900);
+    const afterRestore = await session.eval(`(() => {
+      const hidden = JSON.parse(window.localStorage.getItem('anime-up-match:hidden-ups') || '[]');
+      return { hidden, listCount: document.querySelectorAll('.settings-list__item').length };
+    })()`);
+    check(afterRestore.hidden.length === 0, '移除记录已清除', JSON.stringify(afterRestore.hidden));
+    check(afterRestore.listCount === 19, '名单恢复', `${afterRestore.listCount} 项`);
+
+    // 删除自己添加的那位
+    const deleteCustom = await session.eval(`(() => {
+      const items = Array.from(document.querySelectorAll('.settings-list__item'));
+      const hit = items.find((el) => /测试UP主/.test(el.textContent || ''));
+      if (!hit) return 'not-found';
+      hit.click();
+      return 'clicked';
+    })()`);
+    check(deleteCustom === 'clicked', '选中自己添加的 UP 主', deleteCustom);
+    await sleep(800);
+
+    const deleteResult = await session.eval(`(() => {
+      const btn = Array.from(document.querySelectorAll('.settings-editor .btn'))
+        .find((b) => /删除这位 UP 主/.test(b.textContent || ''));
+      if (!btn) return 'missing';
+      window.confirm = () => true;
+      btn.click();
+      return 'clicked';
+    })()`);
+    check(deleteResult === 'clicked', '「删除这位 UP 主」可点击', deleteResult);
+    await sleep(900);
+
+    const afterDelete = await session.eval(`(() => {
+      const custom = JSON.parse(window.localStorage.getItem('anime-up-match:custom-ups') || '[]');
+      return { count: custom.length, listCount: document.querySelectorAll('.settings-list__item').length };
+    })()`);
+    check(afterDelete.count === 0, '自定义档案已删除', `custom=${afterDelete.count}`);
+    check(afterDelete.listCount === 18, '名单回到 18 位', `${afterDelete.listCount} 项`);
+
+    /* ---------- 10. 无控制台报错 ---------- */
+    console.log('\n=== 10. 控制台 ===');
     const errors = session.consoleErrors.filter((e) => !/favicon|404/i.test(e));
     check(errors.length === 0, '没有控制台报错', errors.length ? errors.slice(0, 2).join(' | ') : '干净');
 
